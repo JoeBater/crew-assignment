@@ -1,0 +1,26 @@
+# Core Data & Math
+ipython
+jupyter
+
+numpy
+pandas
+scipy
+numba
+
+# Progress & Diagnostics
+tqdm
+matplotlib
+rich
+
+# Modeling & Validation
+#pydantic
+
+# Simulation & Synthetic Data
+faker
+
+# Environment & API
+dotenv
+openai
+
+# Testing
+pytest
