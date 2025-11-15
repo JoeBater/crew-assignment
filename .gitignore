@@ -2,5 +2,7 @@ __pycache__
 *.pyc
 .env
 venv/
-data/
+data/*.csv
+data/*.xlsx
+data/*.json
 logs/
