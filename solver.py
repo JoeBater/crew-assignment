@@ -125,29 +125,91 @@ class Solver():
 
                 # Extract origin from the specific flight
                 flight_row = self.flights[self.flights['id'] == f].iloc[0]
-            day = int(flight_row['day'])
-            origin = flight_row['origin']
-            destination = flight_row['dest']
-            depart = flight_row['dep']
-            arrive = flight_row['arr']
-            #print(f"Flight {f} origin: {origin}")
+                day = int(flight_row['day'])
+                origin = flight_row['origin']
+                destination = flight_row['dest']
+                depart = flight_row['dep']
+                arrive = flight_row['arr']
+                #print(f"Flight {f} origin: {origin}")
 
-            if self.assignment[f]['captain'] is not None:
-                self.crew_state[self.assignment[f]['captain']].append({"day": day, "flight": f, "role": "captain", "origin": origin, "destination": destination, "depart": depart, "arrive": arrive})
-            if self.assignment[f]['first_officer'] is not None:
-                self.crew_state[self.assignment[f]['first_officer']].append({"day": day, "flight": f, "role": "first_officer", "origin": origin, "destination": destination, "depart": depart, "arrive": arrive})
+                if self.assignment[f]['captain'] is not None:
+                    self.crew_state[self.assignment[f]['captain']].append({"day": day, "flight": f, "role": "captain", "origin": origin, "destination": destination, "depart": depart, "arrive": arrive})
+                if self.assignment[f]['first_officer'] is not None:
+                    self.crew_state[self.assignment[f]['first_officer']].append({"day": day, "flight": f, "role": "first_officer", "origin": origin, "destination": destination, "depart": depart, "arrive": arrive})
 
-            dead_headers = self.assignment[f]['dead_heading']
-            if len(dead_headers) > 0:
-                #print(f'{len(dead_headers)} dead-headers')
-                for dh in dead_headers:
-                    self.crew_state[dh].append({"day": day, "flight": f, "role": "dead_heading", "origin": origin, "destination": destination, "depart": depart, "arrive": arrive})
+                dead_headers = self.assignment[f]['dead_heading']
+                if len(dead_headers) > 0:
+                    #print(f'{len(dead_headers)} dead-headers')
+                    for dh in dead_headers:
+                        self.crew_state[dh].append({"day": day, "flight": f, "role": "dead_heading", "origin": origin, "destination": destination, "depart": depart, "arrive": arrive})
 
         # ensure crew members flights are sorted
         for c in self.crew_state:
             self.crew_state[c] = sorted(self.crew_state[c], key=lambda x: (x['day'], x['depart']))
 
         return self.crew_state
+
+    def debug_crew_state(self):
+        """Debug function to print crew state information"""
+        if self.crew_state is None:
+            print("Crew state is None. Call initial_crew_state() first.")
+            return
+        
+        print(f"Total crew members: {len(self.crew_state)}")
+        active_crew = 0
+        total_flights = 0
+        
+        for crew_id, flights in self.crew_state.items():
+            if len(flights) > 0:
+                active_crew += 1
+                total_flights += len(flights)
+                print(f"Crew {crew_id}: {len(flights)} flights")
+                for flight in flights:
+                    print(f"  Day {flight['day']}: {flight['flight']} ({flight['role']}) {flight['origin']}->{flight['destination']} at {flight['depart']}")
+        
+        print(f"\nSummary:")
+        print(f"Active crew members: {active_crew}/{len(self.crew_state)}")
+        print(f"Total flight assignments: {total_flights}")
+        
+        return self.crew_state
+
+    def debug_assignment(self):
+        """Debug function to print assignment information"""
+        if self.assignment is None:
+            print("Assignment is None. Call initial_assignment() first.")
+            return
+        
+        assigned_flights = 0
+        unassigned_captains = 0
+        unassigned_first_officers = 0
+        deadhead_assignments = 0
+        
+        for fid, roles in self.assignment.items():
+            has_assignment = False
+            if roles['captain'] is not None:
+                has_assignment = True
+            else:
+                unassigned_captains += 1
+                
+            if roles['first_officer'] is not None:
+                has_assignment = True
+            else:
+                unassigned_first_officers += 1
+                
+            if len(roles['dead_heading']) > 0:
+                deadhead_assignments += len(roles['dead_heading'])
+                
+            if has_assignment:
+                assigned_flights += 1
+        
+        print(f"Assignment Summary:")
+        print(f"Total flights: {len(self.assignment)}")
+        print(f"Flights with assignments: {assigned_flights}")
+        print(f"Unassigned captains: {unassigned_captains}")
+        print(f"Unassigned first officers: {unassigned_first_officers}")
+        print(f"Dead-heading assignments: {deadhead_assignments}")
+        
+        return self.assignment
 
     def compute_assignment_cost(self, assignment):
         total_cost = 0
