@@ -1,0 +1,7104 @@
+{
+  "metadata": {
+    "created_at": "2025-11-18T08:44:24.571506",
+    "num_flights": 250,
+    "num_crew": 100,
+    "optimizer_version": "1.0.0"
+  },
+  "assignment": {
+    "D1_F026": {
+      "captain": "C26",
+      "first_officer": "FO20",
+      "dead_heading": []
+    },
+    "D1_F043": {
+      "captain": "C44",
+      "first_officer": "FO35",
+      "dead_heading": []
+    },
+    "D1_F005": {
+      "captain": "C34",
+      "first_officer": "FO46",
+      "dead_heading": []
+    },
+    "D1_F023": {
+      "captain": "C6",
+      "first_officer": "FO28",
+      "dead_heading": []
+    },
+    "D1_F031": {
+      "captain": "C32",
+      "first_officer": "FO32",
+      "dead_heading": []
+    },
+    "D1_F014": {
+      "captain": "C14",
+      "first_officer": "FO29",
+      "dead_heading": []
+    },
+    "D1_F044": {
+      "captain": "C20",
+      "first_officer": "FO33",
+      "dead_heading": []
+    },
+    "D1_F047": {
+      "captain": "C12",
+      "first_officer": "FO1",
+      "dead_heading": []
+    },
+    "D1_F011": {
+      "captain": "C40",
+      "first_officer": "FO2",
+      "dead_heading": []
+    },
+    "D1_F015": {
+      "captain": "C6",
+      "first_officer": "FO6",
+      "dead_heading": []
+    },
+    "D1_F024": {
+      "captain": "C10",
+      "first_officer": "FO48",
+      "dead_heading": []
+    },
+    "D1_F032": {
+      "captain": "C45",
+      "first_officer": "FO38",
+      "dead_heading": []
+    },
+    "D1_F048": {
+      "captain": "C33",
+      "first_officer": "FO32",
+      "dead_heading": []
+    },
+    "D1_F000": {
+      "captain": "C31",
+      "first_officer": "FO2",
+      "dead_heading": []
+    },
+    "D1_F012": {
+      "captain": "C34",
+      "first_officer": "FO16",
+      "dead_heading": []
+    },
+    "D1_F049": {
+      "captain": "C12",
+      "first_officer": "FO1",
+      "dead_heading": []
+    },
+    "D1_F025": {
+      "captain": "C42",
+      "first_officer": "FO9",
+      "dead_heading": []
+    },
+    "D1_F030": {
+      "captain": "C2",
+      "first_officer": "FO17",
+      "dead_heading": []
+    },
+    "D1_F001": {
+      "captain": "C45",
+      "first_officer": "FO47",
+      "dead_heading": []
+    },
+    "D1_F006": {
+      "captain": "C10",
+      "first_officer": "FO38",
+      "dead_heading": []
+    },
+    "D1_F013": {
+      "captain": "C21",
+      "first_officer": "FO7",
+      "dead_heading": []
+    },
+    "D1_F038": {
+      "captain": "C49",
+      "first_officer": "FO27",
+      "dead_heading": []
+    },
+    "D1_F040": {
+      "captain": "C12",
+      "first_officer": "FO23",
+      "dead_heading": []
+    },
+    "D1_F041": {
+      "captain": "C44",
+      "first_officer": "FO19",
+      "dead_heading": []
+    },
+    "D1_F017": {
+      "captain": "C16",
+      "first_officer": "FO3",
+      "dead_heading": []
+    },
+    "D1_F036": {
+      "captain": "C6",
+      "first_officer": "FO30",
+      "dead_heading": []
+    },
+    "D1_F004": {
+      "captain": "C10",
+      "first_officer": "FO15",
+      "dead_heading": []
+    },
+    "D1_F029": {
+      "captain": "C20",
+      "first_officer": "FO25",
+      "dead_heading": []
+    },
+    "D1_F034": {
+      "captain": "C46",
+      "first_officer": "FO35",
+      "dead_heading": []
+    },
+    "D1_F042": {
+      "captain": "C30",
+      "first_officer": "FO29",
+      "dead_heading": []
+    },
+    "D1_F007": {
+      "captain": "C43",
+      "first_officer": "FO43",
+      "dead_heading": []
+    },
+    "D1_F027": {
+      "captain": "C2",
+      "first_officer": "FO1",
+      "dead_heading": []
+    },
+    "D1_F035": {
+      "captain": "C42",
+      "first_officer": "FO13",
+      "dead_heading": []
+    },
+    "D1_F039": {
+      "captain": "C7",
+      "first_officer": "FO17",
+      "dead_heading": []
+    },
+    "D1_F033": {
+      "captain": "C20",
+      "first_officer": "FO33",
+      "dead_heading": []
+    },
+    "D1_F010": {
+      "captain": "C44",
+      "first_officer": "FO2",
+      "dead_heading": []
+    },
+    "D1_F016": {
+      "captain": "C0",
+      "first_officer": "FO34",
+      "dead_heading": []
+    },
+    "D1_F019": {
+      "captain": "C14",
+      "first_officer": "FO30",
+      "dead_heading": []
+    },
+    "D1_F020": {
+      "captain": "C23",
+      "first_officer": "FO37",
+      "dead_heading": []
+    },
+    "D1_F002": {
+      "captain": "C1",
+      "first_officer": "FO3",
+      "dead_heading": []
+    },
+    "D1_F008": {
+      "captain": "C6",
+      "first_officer": "FO43",
+      "dead_heading": []
+    },
+    "D1_F022": {
+      "captain": null,
+      "first_officer": "FO28",
+      "dead_heading": []
+    },
+    "D1_F046": {
+      "captain": "C45",
+      "first_officer": "FO31",
+      "dead_heading": []
+    },
+    "D1_F003": {
+      "captain": "C47",
+      "first_officer": "FO44",
+      "dead_heading": []
+    },
+    "D1_F028": {
+      "captain": "C43",
+      "first_officer": "FO39",
+      "dead_heading": []
+    },
+    "D1_F018": {
+      "captain": "C12",
+      "first_officer": "FO2",
+      "dead_heading": []
+    },
+    "D1_F037": {
+      "captain": "C24",
+      "first_officer": "FO38",
+      "dead_heading": []
+    },
+    "D1_F045": {
+      "captain": "C47",
+      "first_officer": "FO34",
+      "dead_heading": []
+    },
+    "D1_F009": {
+      "captain": "C42",
+      "first_officer": "FO9",
+      "dead_heading": []
+    },
+    "D1_F021": {
+      "captain": "C28",
+      "first_officer": "FO41",
+      "dead_heading": []
+    },
+    "D2_F005": {
+      "captain": "C28",
+      "first_officer": "FO41",
+      "dead_heading": []
+    },
+    "D2_F037": {
+      "captain": "C15",
+      "first_officer": "FO22",
+      "dead_heading": []
+    },
+    "D2_F003": {
+      "captain": "C3",
+      "first_officer": "FO5",
+      "dead_heading": []
+    },
+    "D2_F011": {
+      "captain": "C22",
+      "first_officer": "FO28",
+      "dead_heading": []
+    },
+    "D2_F027": {
+      "captain": "C10",
+      "first_officer": "FO6",
+      "dead_heading": []
+    },
+    "D2_F030": {
+      "captain": "C5",
+      "first_officer": "FO22",
+      "dead_heading": []
+    },
+    "D2_F044": {
+      "captain": "C45",
+      "first_officer": "FO47",
+      "dead_heading": []
+    },
+    "D2_F007": {
+      "captain": "C32",
+      "first_officer": "FO32",
+      "dead_heading": []
+    },
+    "D2_F048": {
+      "captain": "C18",
+      "first_officer": "FO12",
+      "dead_heading": []
+    },
+    "D2_F017": {
+      "captain": "C1",
+      "first_officer": "FO30",
+      "dead_heading": []
+    },
+    "D2_F026": {
+      "captain": "C23",
+      "first_officer": "FO3",
+      "dead_heading": []
+    },
+    "D2_F045": {
+      "captain": "C18",
+      "first_officer": "FO28",
+      "dead_heading": []
+    },
+    "D2_F039": {
+      "captain": "C6",
+      "first_officer": null,
+      "dead_heading": []
+    },
+    "D2_F043": {
+      "captain": "C45",
+      "first_officer": "FO40",
+      "dead_heading": []
+    },
+    "D2_F004": {
+      "captain": "C24",
+      "first_officer": "FO38",
+      "dead_heading": []
+    },
+    "D2_F008": {
+      "captain": "C11",
+      "first_officer": "FO27",
+      "dead_heading": []
+    },
+    "D2_F029": {
+      "captain": "C16",
+      "first_officer": "FO14",
+      "dead_heading": []
+    },
+    "D2_F036": {
+      "captain": "C31",
+      "first_officer": "FO38",
+      "dead_heading": []
+    },
+    "D2_F001": {
+      "captain": "C12",
+      "first_officer": "FO3",
+      "dead_heading": []
+    },
+    "D2_F021": {
+      "captain": "C15",
+      "first_officer": "FO18",
+      "dead_heading": []
+    },
+    "D2_F022": {
+      "captain": "C10",
+      "first_officer": "FO21",
+      "dead_heading": []
+    },
+    "D2_F033": {
+      "captain": "C6",
+      "first_officer": "FO20",
+      "dead_heading": []
+    },
+    "D2_F035": {
+      "captain": "C38",
+      "first_officer": "FO2",
+      "dead_heading": []
+    },
+    "D2_F034": {
+      "captain": "C49",
+      "first_officer": "FO9",
+      "dead_heading": []
+    },
+    "D2_F040": {
+      "captain": "C13",
+      "first_officer": "FO23",
+      "dead_heading": []
+    },
+    "D2_F042": {
+      "captain": "C5",
+      "first_officer": "FO5",
+      "dead_heading": []
+    },
+    "D2_F015": {
+      "captain": "C25",
+      "first_officer": "FO48",
+      "dead_heading": []
+    },
+    "D2_F028": {
+      "captain": "C3",
+      "first_officer": "FO4",
+      "dead_heading": []
+    },
+    "D2_F000": {
+      "captain": "C29",
+      "first_officer": "FO20",
+      "dead_heading": []
+    },
+    "D2_F016": {
+      "captain": "C45",
+      "first_officer": "FO38",
+      "dead_heading": []
+    },
+    "D2_F010": {
+      "captain": "C17",
+      "first_officer": "FO15",
+      "dead_heading": []
+    },
+    "D2_F024": {
+      "captain": "C33",
+      "first_officer": "FO27",
+      "dead_heading": []
+    },
+    "D2_F046": {
+      "captain": "C31",
+      "first_officer": "FO49",
+      "dead_heading": []
+    },
+    "D2_F031": {
+      "captain": "C28",
+      "first_officer": "FO41",
+      "dead_heading": []
+    },
+    "D2_F025": {
+      "captain": "C9",
+      "first_officer": "FO3",
+      "dead_heading": []
+    },
+    "D2_F038": {
+      "captain": "C6",
+      "first_officer": "FO30",
+      "dead_heading": []
+    },
+    "D2_F023": {
+      "captain": "C25",
+      "first_officer": "FO20",
+      "dead_heading": []
+    },
+    "D2_F019": {
+      "captain": "C5",
+      "first_officer": "FO16",
+      "dead_heading": []
+    },
+    "D2_F032": {
+      "captain": "C26",
+      "first_officer": null,
+      "dead_heading": []
+    },
+    "D2_F009": {
+      "captain": "C34",
+      "first_officer": "FO2",
+      "dead_heading": []
+    },
+    "D2_F013": {
+      "captain": "C29",
+      "first_officer": "FO15",
+      "dead_heading": []
+    },
+    "D2_F049": {
+      "captain": "C24",
+      "first_officer": "FO17",
+      "dead_heading": []
+    },
+    "D2_F006": {
+      "captain": "C27",
+      "first_officer": null,
+      "dead_heading": []
+    },
+    "D2_F020": {
+      "captain": "C44",
+      "first_officer": "FO35",
+      "dead_heading": []
+    },
+    "D2_F012": {
+      "captain": "C1",
+      "first_officer": "FO46",
+      "dead_heading": []
+    },
+    "D2_F014": {
+      "captain": "C6",
+      "first_officer": "FO39",
+      "dead_heading": []
+    },
+    "D2_F041": {
+      "captain": "C12",
+      "first_officer": "FO23",
+      "dead_heading": []
+    },
+    "D2_F002": {
+      "captain": "C49",
+      "first_officer": "FO9",
+      "dead_heading": []
+    },
+    "D2_F018": {
+      "captain": "C20",
+      "first_officer": "FO24",
+      "dead_heading": []
+    },
+    "D2_F047": {
+      "captain": "C3",
+      "first_officer": "FO7",
+      "dead_heading": []
+    },
+    "D3_F002": {
+      "captain": "C2",
+      "first_officer": "FO1",
+      "dead_heading": []
+    },
+    "D3_F016": {
+      "captain": "C20",
+      "first_officer": "FO12",
+      "dead_heading": []
+    },
+    "D3_F032": {
+      "captain": "C24",
+      "first_officer": "FO43",
+      "dead_heading": []
+    },
+    "D3_F006": {
+      "captain": "C37",
+      "first_officer": "FO27",
+      "dead_heading": []
+    },
+    "D3_F039": {
+      "captain": "C28",
+      "first_officer": "FO29",
+      "dead_heading": []
+    },
+    "D3_F000": {
+      "captain": "C8",
+      "first_officer": "FO18",
+      "dead_heading": []
+    },
+    "D3_F005": {
+      "captain": "C45",
+      "first_officer": "FO47",
+      "dead_heading": []
+    },
+    "D3_F022": {
+      "captain": "C26",
+      "first_officer": "FO48",
+      "dead_heading": []
+    },
+    "D3_F024": {
+      "captain": "C3",
+      "first_officer": "FO3",
+      "dead_heading": []
+    },
+    "D3_F033": {
+      "captain": "C49",
+      "first_officer": "FO9",
+      "dead_heading": []
+    },
+    "D3_F035": {
+      "captain": "C27",
+      "first_officer": "FO7",
+      "dead_heading": []
+    },
+    "D3_F037": {
+      "captain": "C22",
+      "first_officer": "FO21",
+      "dead_heading": []
+    },
+    "D3_F048": {
+      "captain": "C8",
+      "first_officer": "FO18",
+      "dead_heading": []
+    },
+    "D3_F014": {
+      "captain": "C29",
+      "first_officer": "FO40",
+      "dead_heading": []
+    },
+    "D3_F041": {
+      "captain": "C5",
+      "first_officer": "FO4",
+      "dead_heading": []
+    },
+    "D3_F047": {
+      "captain": "C17",
+      "first_officer": "FO1",
+      "dead_heading": []
+    },
+    "D3_F020": {
+      "captain": "C15",
+      "first_officer": "FO35",
+      "dead_heading": []
+    },
+    "D3_F025": {
+      "captain": "C27",
+      "first_officer": "FO48",
+      "dead_heading": []
+    },
+    "D3_F036": {
+      "captain": "C10",
+      "first_officer": "FO20",
+      "dead_heading": []
+    },
+    "D3_F018": {
+      "captain": "C10",
+      "first_officer": null,
+      "dead_heading": []
+    },
+    "D3_F043": {
+      "captain": "C31",
+      "first_officer": "FO38",
+      "dead_heading": []
+    },
+    "D3_F001": {
+      "captain": "C17",
+      "first_officer": "FO34",
+      "dead_heading": []
+    },
+    "D3_F015": {
+      "captain": "C28",
+      "first_officer": "FO41",
+      "dead_heading": []
+    },
+    "D3_F038": {
+      "captain": "C45",
+      "first_officer": "FO47",
+      "dead_heading": []
+    },
+    "D3_F049": {
+      "captain": "C27",
+      "first_officer": "FO23",
+      "dead_heading": []
+    },
+    "D3_F007": {
+      "captain": "C10",
+      "first_officer": "FO6",
+      "dead_heading": []
+    },
+    "D3_F046": {
+      "captain": "C5",
+      "first_officer": "FO4",
+      "dead_heading": []
+    },
+    "D3_F009": {
+      "captain": "C38",
+      "first_officer": null,
+      "dead_heading": []
+    },
+    "D3_F010": {
+      "captain": "C27",
+      "first_officer": "FO23",
+      "dead_heading": []
+    },
+    "D3_F029": {
+      "captain": "C8",
+      "first_officer": "FO18",
+      "dead_heading": []
+    },
+    "D3_F042": {
+      "captain": "C20",
+      "first_officer": "FO17",
+      "dead_heading": []
+    },
+    "D3_F030": {
+      "captain": "C22",
+      "first_officer": "FO27",
+      "dead_heading": []
+    },
+    "D3_F026": {
+      "captain": "C38",
+      "first_officer": "FO21",
+      "dead_heading": []
+    },
+    "D3_F004": {
+      "captain": "C22",
+      "first_officer": "FO4",
+      "dead_heading": []
+    },
+    "D3_F011": {
+      "captain": "C45",
+      "first_officer": "FO0",
+      "dead_heading": []
+    },
+    "D3_F013": {
+      "captain": "C30",
+      "first_officer": "FO20",
+      "dead_heading": []
+    },
+    "D3_F034": {
+      "captain": "C35",
+      "first_officer": "FO36",
+      "dead_heading": []
+    },
+    "D3_F008": {
+      "captain": "C47",
+      "first_officer": "FO37",
+      "dead_heading": []
+    },
+    "D3_F017": {
+      "captain": "C40",
+      "first_officer": "FO6",
+      "dead_heading": []
+    },
+    "D3_F027": {
+      "captain": "C16",
+      "first_officer": "FO48",
+      "dead_heading": []
+    },
+    "D3_F044": {
+      "captain": "C34",
+      "first_officer": "FO46",
+      "dead_heading": []
+    },
+    "D3_F019": {
+      "captain": "C38",
+      "first_officer": "FO38",
+      "dead_heading": []
+    },
+    "D3_F045": {
+      "captain": "C18",
+      "first_officer": "FO45",
+      "dead_heading": []
+    },
+    "D3_F021": {
+      "captain": "C24",
+      "first_officer": "FO6",
+      "dead_heading": []
+    },
+    "D3_F012": {
+      "captain": "C20",
+      "first_officer": "FO18",
+      "dead_heading": []
+    },
+    "D3_F028": {
+      "captain": "C22",
+      "first_officer": "FO8",
+      "dead_heading": []
+    },
+    "D3_F031": {
+      "captain": "C3",
+      "first_officer": "FO13",
+      "dead_heading": []
+    },
+    "D3_F040": {
+      "captain": "C28",
+      "first_officer": "FO41",
+      "dead_heading": []
+    },
+    "D3_F003": {
+      "captain": "C14",
+      "first_officer": "FO29",
+      "dead_heading": []
+    },
+    "D3_F023": {
+      "captain": "C29",
+      "first_officer": "FO37",
+      "dead_heading": []
+    },
+    "D4_F002": {
+      "captain": "C0",
+      "first_officer": "FO8",
+      "dead_heading": []
+    },
+    "D4_F034": {
+      "captain": "C2",
+      "first_officer": "FO42",
+      "dead_heading": []
+    },
+    "D4_F014": {
+      "captain": "C29",
+      "first_officer": "FO34",
+      "dead_heading": []
+    },
+    "D4_F000": {
+      "captain": "C31",
+      "first_officer": "FO15",
+      "dead_heading": []
+    },
+    "D4_F041": {
+      "captain": "C3",
+      "first_officer": "FO25",
+      "dead_heading": []
+    },
+    "D4_F049": {
+      "captain": "C0",
+      "first_officer": "FO4",
+      "dead_heading": []
+    },
+    "D4_F032": {
+      "captain": "C20",
+      "first_officer": "FO24",
+      "dead_heading": []
+    },
+    "D4_F010": {
+      "captain": "C14",
+      "first_officer": "FO43",
+      "dead_heading": []
+    },
+    "D4_F025": {
+      "captain": "C11",
+      "first_officer": "FO2",
+      "dead_heading": []
+    },
+    "D4_F027": {
+      "captain": "C45",
+      "first_officer": "FO40",
+      "dead_heading": []
+    },
+    "D4_F028": {
+      "captain": "C21",
+      "first_officer": "FO28",
+      "dead_heading": []
+    },
+    "D4_F029": {
+      "captain": "C38",
+      "first_officer": "FO38",
+      "dead_heading": []
+    },
+    "D4_F036": {
+      "captain": "C48",
+      "first_officer": "FO7",
+      "dead_heading": []
+    },
+    "D4_F039": {
+      "captain": "C33",
+      "first_officer": "FO32",
+      "dead_heading": []
+    },
+    "D4_F011": {
+      "captain": "C16",
+      "first_officer": "FO3",
+      "dead_heading": []
+    },
+    "D4_F033": {
+      "captain": "C3",
+      "first_officer": "FO13",
+      "dead_heading": []
+    },
+    "D4_F042": {
+      "captain": "C10",
+      "first_officer": "FO1",
+      "dead_heading": []
+    },
+    "D4_F017": {
+      "captain": "C24",
+      "first_officer": "FO17",
+      "dead_heading": []
+    },
+    "D4_F021": {
+      "captain": "C4",
+      "first_officer": "FO0",
+      "dead_heading": []
+    },
+    "D4_F031": {
+      "captain": "C6",
+      "first_officer": "FO11",
+      "dead_heading": []
+    },
+    "D4_F008": {
+      "captain": "C30",
+      "first_officer": "FO44",
+      "dead_heading": []
+    },
+    "D4_F045": {
+      "captain": "C47",
+      "first_officer": "FO4",
+      "dead_heading": []
+    },
+    "D4_F037": {
+      "captain": "C1",
+      "first_officer": "FO35",
+      "dead_heading": []
+    },
+    "D4_F046": {
+      "captain": "C3",
+      "first_officer": "FO3",
+      "dead_heading": []
+    },
+    "D4_F019": {
+      "captain": "C11",
+      "first_officer": "FO21",
+      "dead_heading": []
+    },
+    "D4_F035": {
+      "captain": "C35",
+      "first_officer": "FO27",
+      "dead_heading": []
+    },
+    "D4_F040": {
+      "captain": "C42",
+      "first_officer": "FO45",
+      "dead_heading": []
+    },
+    "D4_F006": {
+      "captain": "C15",
+      "first_officer": "FO34",
+      "dead_heading": []
+    },
+    "D4_F012": {
+      "captain": "C40",
+      "first_officer": "FO2",
+      "dead_heading": []
+    },
+    "D4_F038": {
+      "captain": "C19",
+      "first_officer": "FO32",
+      "dead_heading": []
+    },
+    "D4_F044": {
+      "captain": "C2",
+      "first_officer": "FO1",
+      "dead_heading": []
+    },
+    "D4_F007": {
+      "captain": "C2",
+      "first_officer": "FO1",
+      "dead_heading": []
+    },
+    "D4_F001": {
+      "captain": "C8",
+      "first_officer": "FO26",
+      "dead_heading": []
+    },
+    "D4_F005": {
+      "captain": "C9",
+      "first_officer": "FO5",
+      "dead_heading": []
+    },
+    "D4_F009": {
+      "captain": "C33",
+      "first_officer": "FO27",
+      "dead_heading": []
+    },
+    "D4_F026": {
+      "captain": "C0",
+      "first_officer": "FO17",
+      "dead_heading": []
+    },
+    "D4_F047": {
+      "captain": "C18",
+      "first_officer": "FO20",
+      "dead_heading": []
+    },
+    "D4_F018": {
+      "captain": "C49",
+      "first_officer": "FO2",
+      "dead_heading": []
+    },
+    "D4_F022": {
+      "captain": "C45",
+      "first_officer": "FO38",
+      "dead_heading": []
+    },
+    "D4_F016": {
+      "captain": "C27",
+      "first_officer": "FO48",
+      "dead_heading": []
+    },
+    "D4_F048": {
+      "captain": "C21",
+      "first_officer": "FO28",
+      "dead_heading": []
+    },
+    "D4_F023": {
+      "captain": "C0",
+      "first_officer": "FO2",
+      "dead_heading": []
+    },
+    "D4_F013": {
+      "captain": "C13",
+      "first_officer": null,
+      "dead_heading": []
+    },
+    "D4_F024": {
+      "captain": "C26",
+      "first_officer": "FO20",
+      "dead_heading": []
+    },
+    "D4_F030": {
+      "captain": "C49",
+      "first_officer": "FO27",
+      "dead_heading": []
+    },
+    "D4_F003": {
+      "captain": "C27",
+      "first_officer": "FO48",
+      "dead_heading": []
+    },
+    "D4_F015": {
+      "captain": "C33",
+      "first_officer": "FO25",
+      "dead_heading": []
+    },
+    "D4_F043": {
+      "captain": "C12",
+      "first_officer": "FO1",
+      "dead_heading": []
+    },
+    "D4_F004": {
+      "captain": "C8",
+      "first_officer": "FO46",
+      "dead_heading": []
+    },
+    "D4_F020": {
+      "captain": "C6",
+      "first_officer": "FO42",
+      "dead_heading": []
+    },
+    "D5_F020": {
+      "captain": "C45",
+      "first_officer": "FO40",
+      "dead_heading": []
+    },
+    "D5_F024": {
+      "captain": "C24",
+      "first_officer": "FO4",
+      "dead_heading": []
+    },
+    "D5_F030": {
+      "captain": "C11",
+      "first_officer": "FO38",
+      "dead_heading": []
+    },
+    "D5_F000": {
+      "captain": "C29",
+      "first_officer": "FO22",
+      "dead_heading": []
+    },
+    "D5_F002": {
+      "captain": "C49",
+      "first_officer": "FO48",
+      "dead_heading": []
+    },
+    "D5_F007": {
+      "captain": "C26",
+      "first_officer": "FO42",
+      "dead_heading": []
+    },
+    "D5_F017": {
+      "captain": "C42",
+      "first_officer": "FO45",
+      "dead_heading": []
+    },
+    "D5_F026": {
+      "captain": "C44",
+      "first_officer": "FO30",
+      "dead_heading": []
+    },
+    "D5_F046": {
+      "captain": "C31",
+      "first_officer": "FO21",
+      "dead_heading": []
+    },
+    "D5_F014": {
+      "captain": "C28",
+      "first_officer": "FO24",
+      "dead_heading": []
+    },
+    "D5_F018": {
+      "captain": "C24",
+      "first_officer": "FO3",
+      "dead_heading": []
+    },
+    "D5_F028": {
+      "captain": "C26",
+      "first_officer": "FO38",
+      "dead_heading": []
+    },
+    "D5_F011": {
+      "captain": "C31",
+      "first_officer": "FO48",
+      "dead_heading": []
+    },
+    "D5_F033": {
+      "captain": "C12",
+      "first_officer": "FO4",
+      "dead_heading": []
+    },
+    "D5_F037": {
+      "captain": "C46",
+      "first_officer": "FO30",
+      "dead_heading": []
+    },
+    "D5_F012": {
+      "captain": "C28",
+      "first_officer": "FO24",
+      "dead_heading": []
+    },
+    "D5_F015": {
+      "captain": "C9",
+      "first_officer": "FO5",
+      "dead_heading": []
+    },
+    "D5_F035": {
+      "captain": "C6",
+      "first_officer": "FO7",
+      "dead_heading": []
+    },
+    "D5_F047": {
+      "captain": "C35",
+      "first_officer": "FO45",
+      "dead_heading": []
+    },
+    "D5_F034": {
+      "captain": "C14",
+      "first_officer": "FO43",
+      "dead_heading": []
+    },
+    "D5_F044": {
+      "captain": "C35",
+      "first_officer": "FO36",
+      "dead_heading": []
+    },
+    "D5_F029": {
+      "captain": "C38",
+      "first_officer": "FO15",
+      "dead_heading": []
+    },
+    "D5_F004": {
+      "captain": "C35",
+      "first_officer": "FO5",
+      "dead_heading": []
+    },
+    "D5_F008": {
+      "captain": "C3",
+      "first_officer": "FO36",
+      "dead_heading": []
+    },
+    "D5_F010": {
+      "captain": "C25",
+      "first_officer": "FO48",
+      "dead_heading": []
+    },
+    "D5_F041": {
+      "captain": "C24",
+      "first_officer": "FO27",
+      "dead_heading": []
+    },
+    "D5_F043": {
+      "captain": "C46",
+      "first_officer": "FO35",
+      "dead_heading": []
+    },
+    "D5_F019": {
+      "captain": "C29",
+      "first_officer": "FO18",
+      "dead_heading": []
+    },
+    "D5_F025": {
+      "captain": "C6",
+      "first_officer": "FO7",
+      "dead_heading": []
+    },
+    "D5_F038": {
+      "captain": "C2",
+      "first_officer": "FO37",
+      "dead_heading": []
+    },
+    "D5_F045": {
+      "captain": "C4",
+      "first_officer": "FO0",
+      "dead_heading": []
+    },
+    "D5_F013": {
+      "captain": "C32",
+      "first_officer": "FO25",
+      "dead_heading": []
+    },
+    "D5_F005": {
+      "captain": "C20",
+      "first_officer": "FO15",
+      "dead_heading": []
+    },
+    "D5_F039": {
+      "captain": "C10",
+      "first_officer": "FO30",
+      "dead_heading": []
+    },
+    "D5_F040": {
+      "captain": "C28",
+      "first_officer": "FO24",
+      "dead_heading": []
+    },
+    "D5_F027": {
+      "captain": "C48",
+      "first_officer": "FO8",
+      "dead_heading": []
+    },
+    "D5_F048": {
+      "captain": "C46",
+      "first_officer": "FO2",
+      "dead_heading": []
+    },
+    "D5_F031": {
+      "captain": "C14",
+      "first_officer": "FO43",
+      "dead_heading": []
+    },
+    "D5_F009": {
+      "captain": "C28",
+      "first_officer": "FO41",
+      "dead_heading": []
+    },
+    "D5_F016": {
+      "captain": "C3",
+      "first_officer": "FO13",
+      "dead_heading": []
+    },
+    "D5_F022": {
+      "captain": "C0",
+      "first_officer": "FO12",
+      "dead_heading": []
+    },
+    "D5_F049": {
+      "captain": "C22",
+      "first_officer": "FO42",
+      "dead_heading": []
+    },
+    "D5_F006": {
+      "captain": "C12",
+      "first_officer": "FO4",
+      "dead_heading": []
+    },
+    "D5_F032": {
+      "captain": "C4",
+      "first_officer": "FO15",
+      "dead_heading": []
+    },
+    "D5_F036": {
+      "captain": "C16",
+      "first_officer": "FO23",
+      "dead_heading": []
+    },
+    "D5_F042": {
+      "captain": "C31",
+      "first_officer": "FO19",
+      "dead_heading": []
+    },
+    "D5_F003": {
+      "captain": "C36",
+      "first_officer": "FO2",
+      "dead_heading": []
+    },
+    "D5_F001": {
+      "captain": "C35",
+      "first_officer": "FO21",
+      "dead_heading": []
+    },
+    "D5_F021": {
+      "captain": "C45",
+      "first_officer": "FO0",
+      "dead_heading": []
+    },
+    "D5_F023": {
+      "captain": "C21",
+      "first_officer": "FO14",
+      "dead_heading": []
+    }
+  },
+  "crew_state": {
+    "C0": [
+      {
+        "day": 1,
+        "flight": "D1_F016",
+        "origin": "AMS",
+        "destination": "LHR",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F002",
+        "origin": "LHR",
+        "destination": "BCN",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F049",
+        "origin": "BCN",
+        "destination": "MXP",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F026",
+        "origin": "AMS",
+        "destination": "CDG",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F023",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "16:00:00",
+        "arrive": "18:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F022",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C1": [
+      {
+        "day": 1,
+        "flight": "D1_F002",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F017",
+        "origin": "CPH",
+        "destination": "CDG",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F012",
+        "origin": "DUB",
+        "destination": "LHR",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F037",
+        "origin": "DUB",
+        "destination": "CDG",
+        "depart": "11:00:00",
+        "arrive": "12:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C2": [
+      {
+        "day": 1,
+        "flight": "D1_F030",
+        "origin": "AMS",
+        "destination": "FRA",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F027",
+        "origin": "FRA",
+        "destination": "LHR",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F002",
+        "origin": "LHR",
+        "destination": "MXP",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F034",
+        "origin": "FRA",
+        "destination": "DUB",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F044",
+        "origin": "DUB",
+        "destination": "CPH",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F007",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F038",
+        "origin": "AMS",
+        "destination": "LHR",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C3": [
+      {
+        "day": 2,
+        "flight": "D2_F003",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F028",
+        "origin": "BCN",
+        "destination": "AMS",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F047",
+        "origin": "DUB",
+        "destination": "CPH",
+        "depart": "19:00:00",
+        "arrive": "21:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F024",
+        "origin": "CPH",
+        "destination": "CDG",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F031",
+        "origin": "MXP",
+        "destination": "DUB",
+        "depart": "17:00:00",
+        "arrive": "18:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F041",
+        "origin": "FRA",
+        "destination": "BCN",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F033",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F046",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "11:00:00",
+        "arrive": "12:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F008",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F016",
+        "origin": "MXP",
+        "destination": "CPH",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C4": [
+      {
+        "day": 4,
+        "flight": "D4_F021",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F045",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F032",
+        "origin": "LHR",
+        "destination": "CPH",
+        "depart": "18:00:00",
+        "arrive": "19:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C5": [
+      {
+        "day": 2,
+        "flight": "D2_F030",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F042",
+        "origin": "MXP",
+        "destination": "BCN",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F019",
+        "origin": "BCN",
+        "destination": "AMS",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F041",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F046",
+        "origin": "CPH",
+        "destination": "DUB",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C6": [
+      {
+        "day": 1,
+        "flight": "D1_F023",
+        "origin": "FRA",
+        "destination": "CDG",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F015",
+        "origin": "CDG",
+        "destination": "FRA",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F036",
+        "origin": "BCN",
+        "destination": "LHR",
+        "depart": "11:00:00",
+        "arrive": "12:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F008",
+        "origin": "LHR",
+        "destination": "CPH",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F039",
+        "origin": "CPH",
+        "destination": "MXP",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F033",
+        "origin": "FRA",
+        "destination": "CDG",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F038",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F014",
+        "origin": "LHR",
+        "destination": "FRA",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F031",
+        "origin": "FRA",
+        "destination": "AMS",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F020",
+        "origin": "FRA",
+        "destination": "CDG",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F035",
+        "origin": "FRA",
+        "destination": "CPH",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F025",
+        "origin": "FRA",
+        "destination": "BCN",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C7": [
+      {
+        "day": 1,
+        "flight": "D1_F039",
+        "origin": "AMS",
+        "destination": "FRA",
+        "depart": "13:00:00",
+        "arrive": "15:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C8": [
+      {
+        "day": 3,
+        "flight": "D3_F000",
+        "origin": "DUB",
+        "destination": "BCN",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F048",
+        "origin": "DUB",
+        "destination": "BCN",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F029",
+        "origin": "BCN",
+        "destination": "FRA",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F001",
+        "origin": "DUB",
+        "destination": "LHR",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F004",
+        "origin": "DUB",
+        "destination": "FRA",
+        "depart": "18:00:00",
+        "arrive": "20:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C9": [
+      {
+        "day": 2,
+        "flight": "D2_F025",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F005",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F015",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C10": [
+      {
+        "day": 1,
+        "flight": "D1_F024",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F006",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F004",
+        "origin": "AMS",
+        "destination": "FRA",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F027",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F022",
+        "origin": "MXP",
+        "destination": "DUB",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F036",
+        "origin": "DUB",
+        "destination": "CPH",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F018",
+        "origin": "CPH",
+        "destination": "CDG",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F007",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F042",
+        "origin": "CPH",
+        "destination": "DUB",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F039",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C11": [
+      {
+        "day": 2,
+        "flight": "D2_F008",
+        "origin": "CDG",
+        "destination": "BCN",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F025",
+        "origin": "DUB",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F019",
+        "origin": "MXP",
+        "destination": "LHR",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F030",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C12": [
+      {
+        "day": 1,
+        "flight": "D1_F047",
+        "origin": "CPH",
+        "destination": "DUB",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F049",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F040",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F018",
+        "origin": "AMS",
+        "destination": "DUB",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F001",
+        "origin": "CPH",
+        "destination": "MXP",
+        "depart": "11:00:00",
+        "arrive": "12:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F041",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F043",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "18:00:00",
+        "arrive": "19:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F033",
+        "origin": "CPH",
+        "destination": "DUB",
+        "depart": "08:00:00",
+        "arrive": "10:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F006",
+        "origin": "CPH",
+        "destination": "MXP",
+        "depart": "18:00:00",
+        "arrive": "19:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C13": [
+      {
+        "day": 2,
+        "flight": "D2_F040",
+        "origin": "AMS",
+        "destination": "FRA",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F013",
+        "origin": "FRA",
+        "destination": "AMS",
+        "depart": "17:00:00",
+        "arrive": "18:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C14": [
+      {
+        "day": 1,
+        "flight": "D1_F014",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F019",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F003",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "19:00:00",
+        "arrive": "21:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F010",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F034",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F031",
+        "origin": "CDG",
+        "destination": "BCN",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C15": [
+      {
+        "day": 2,
+        "flight": "D2_F037",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F021",
+        "origin": "BCN",
+        "destination": "DUB",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F020",
+        "origin": "DUB",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F006",
+        "origin": "AMS",
+        "destination": "DUB",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C16": [
+      {
+        "day": 1,
+        "flight": "D1_F017",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F029",
+        "origin": "FRA",
+        "destination": "MXP",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F027",
+        "origin": "CPH",
+        "destination": "DUB",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F011",
+        "origin": "CPH",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F036",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "18:00:00",
+        "arrive": "19:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C17": [
+      {
+        "day": 2,
+        "flight": "D2_F010",
+        "origin": "AMS",
+        "destination": "LHR",
+        "depart": "13:00:00",
+        "arrive": "15:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F047",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "08:00:00",
+        "arrive": "10:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F001",
+        "origin": "AMS",
+        "destination": "LHR",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C18": [
+      {
+        "day": 2,
+        "flight": "D2_F048",
+        "origin": "FRA",
+        "destination": "DUB",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F045",
+        "origin": "FRA",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F045",
+        "origin": "MXP",
+        "destination": "BCN",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F047",
+        "origin": "BCN",
+        "destination": "DUB",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C19": [
+      {
+        "day": 4,
+        "flight": "D4_F038",
+        "origin": "FRA",
+        "destination": "CDG",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C20": [
+      {
+        "day": 1,
+        "flight": "D1_F044",
+        "origin": "AMS",
+        "destination": "DUB",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F029",
+        "origin": "BCN",
+        "destination": "MXP",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F033",
+        "origin": "AMS",
+        "destination": "DUB",
+        "depart": "14:00:00",
+        "arrive": "15:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F018",
+        "origin": "LHR",
+        "destination": "CPH",
+        "depart": "19:00:00",
+        "arrive": "21:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F016",
+        "origin": "DUB",
+        "destination": "CPH",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F042",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "13:00:00",
+        "arrive": "15:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F012",
+        "origin": "BCN",
+        "destination": "AMS",
+        "depart": "17:00:00",
+        "arrive": "18:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F032",
+        "origin": "BCN",
+        "destination": "CDG",
+        "depart": "08:00:00",
+        "arrive": "10:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F005",
+        "origin": "AMS",
+        "destination": "LHR",
+        "depart": "14:00:00",
+        "arrive": "15:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C21": [
+      {
+        "day": 1,
+        "flight": "D1_F013",
+        "origin": "FRA",
+        "destination": "DUB",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F028",
+        "origin": "FRA",
+        "destination": "AMS",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F048",
+        "origin": "FRA",
+        "destination": "DUB",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F023",
+        "origin": "FRA",
+        "destination": "BCN",
+        "depart": "19:00:00",
+        "arrive": "21:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C22": [
+      {
+        "day": 2,
+        "flight": "D2_F011",
+        "origin": "FRA",
+        "destination": "CDG",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F037",
+        "origin": "DUB",
+        "destination": "FRA",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F030",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "14:00:00",
+        "arrive": "15:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F004",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F028",
+        "origin": "FRA",
+        "destination": "LHR",
+        "depart": "17:00:00",
+        "arrive": "18:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F049",
+        "origin": "FRA",
+        "destination": "BCN",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C23": [
+      {
+        "day": 1,
+        "flight": "D1_F020",
+        "origin": "AMS",
+        "destination": "BCN",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F026",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C24": [
+      {
+        "day": 1,
+        "flight": "D1_F037",
+        "origin": "LHR",
+        "destination": "BCN",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F004",
+        "origin": "BCN",
+        "destination": "LHR",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F049",
+        "origin": "AMS",
+        "destination": "CDG",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F032",
+        "origin": "CDG",
+        "destination": "BCN",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F021",
+        "origin": "BCN",
+        "destination": "CDG",
+        "depart": "16:00:00",
+        "arrive": "18:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F017",
+        "origin": "AMS",
+        "destination": "BCN",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F024",
+        "origin": "BCN",
+        "destination": "CPH",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F018",
+        "origin": "CPH",
+        "destination": "CDG",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F041",
+        "origin": "CDG",
+        "destination": "DUB",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C25": [
+      {
+        "day": 2,
+        "flight": "D2_F015",
+        "origin": "CPH",
+        "destination": "CDG",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F023",
+        "origin": "CDG",
+        "destination": "DUB",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F010",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C26": [
+      {
+        "day": 1,
+        "flight": "D1_F026",
+        "origin": "FRA",
+        "destination": "CPH",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F032",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F022",
+        "origin": "LHR",
+        "destination": "FRA",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F024",
+        "origin": "FRA",
+        "destination": "AMS",
+        "depart": "17:00:00",
+        "arrive": "18:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F007",
+        "origin": "FRA",
+        "destination": "LHR",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F028",
+        "origin": "LHR",
+        "destination": "CDG",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C27": [
+      {
+        "day": 2,
+        "flight": "D2_F006",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F035",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F025",
+        "origin": "CPH",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F049",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F010",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F016",
+        "origin": "CPH",
+        "destination": "DUB",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F003",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C28": [
+      {
+        "day": 1,
+        "flight": "D1_F021",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F005",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F031",
+        "origin": "LHR",
+        "destination": "CDG",
+        "depart": "14:00:00",
+        "arrive": "15:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F039",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F015",
+        "origin": "LHR",
+        "destination": "FRA",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F040",
+        "origin": "LHR",
+        "destination": "BCN",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F014",
+        "origin": "BCN",
+        "destination": "MXP",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F012",
+        "origin": "LHR",
+        "destination": "CDG",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F040",
+        "origin": "LHR",
+        "destination": "CPH",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F009",
+        "origin": "LHR",
+        "destination": "BCN",
+        "depart": "17:00:00",
+        "arrive": "18:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C29": [
+      {
+        "day": 2,
+        "flight": "D2_F000",
+        "origin": "BCN",
+        "destination": "CPH",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F013",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F014",
+        "origin": "CDG",
+        "destination": "FRA",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F023",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "19:00:00",
+        "arrive": "21:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F014",
+        "origin": "AMS",
+        "destination": "DUB",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F000",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F019",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C30": [
+      {
+        "day": 1,
+        "flight": "D1_F042",
+        "origin": "CDG",
+        "destination": "AMS",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F013",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F008",
+        "origin": "CPH",
+        "destination": "CDG",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C31": [
+      {
+        "day": 1,
+        "flight": "D1_F000",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F036",
+        "origin": "LHR",
+        "destination": "DUB",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F046",
+        "origin": "BCN",
+        "destination": "LHR",
+        "depart": "13:00:00",
+        "arrive": "15:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F043",
+        "origin": "LHR",
+        "destination": "DUB",
+        "depart": "11:00:00",
+        "arrive": "12:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F000",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F046",
+        "origin": "MXP",
+        "destination": "BCN",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F011",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "08:00:00",
+        "arrive": "10:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F042",
+        "origin": "LHR",
+        "destination": "DUB",
+        "depart": "18:00:00",
+        "arrive": "19:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C32": [
+      {
+        "day": 1,
+        "flight": "D1_F031",
+        "origin": "BCN",
+        "destination": "MXP",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F007",
+        "origin": "BCN",
+        "destination": "DUB",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F013",
+        "origin": "BCN",
+        "destination": "LHR",
+        "depart": "13:00:00",
+        "arrive": "15:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C33": [
+      {
+        "day": 1,
+        "flight": "D1_F048",
+        "origin": "BCN",
+        "destination": "DUB",
+        "depart": "08:00:00",
+        "arrive": "10:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F024",
+        "origin": "BCN",
+        "destination": "MXP",
+        "depart": "13:00:00",
+        "arrive": "15:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F039",
+        "origin": "BCN",
+        "destination": "FRA",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F009",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F015",
+        "origin": "BCN",
+        "destination": "AMS",
+        "depart": "18:00:00",
+        "arrive": "19:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C34": [
+      {
+        "day": 1,
+        "flight": "D1_F005",
+        "origin": "DUB",
+        "destination": "BCN",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F012",
+        "origin": "BCN",
+        "destination": "CPH",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F009",
+        "origin": "DUB",
+        "destination": "MXP",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F044",
+        "origin": "DUB",
+        "destination": "LHR",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C35": [
+      {
+        "day": 3,
+        "flight": "D3_F034",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F035",
+        "origin": "CDG",
+        "destination": "FRA",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F047",
+        "origin": "MXP",
+        "destination": "DUB",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F044",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F004",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F001",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C36": [
+      {
+        "day": 5,
+        "flight": "D5_F003",
+        "origin": "DUB",
+        "destination": "CPH",
+        "depart": "18:00:00",
+        "arrive": "20:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C37": [
+      {
+        "day": 3,
+        "flight": "D3_F006",
+        "origin": "LHR",
+        "destination": "CDG",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C38": [
+      {
+        "day": 2,
+        "flight": "D2_F035",
+        "origin": "AMS",
+        "destination": "LHR",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F009",
+        "origin": "LHR",
+        "destination": "CPH",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F026",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F019",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F029",
+        "origin": "AMS",
+        "destination": "DUB",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F029",
+        "origin": "AMS",
+        "destination": "FRA",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C39": [],
+    "C40": [
+      {
+        "day": 1,
+        "flight": "D1_F011",
+        "origin": "DUB",
+        "destination": "AMS",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F017",
+        "origin": "CDG",
+        "destination": "BCN",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F012",
+        "origin": "DUB",
+        "destination": "LHR",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C41": [],
+    "C42": [
+      {
+        "day": 1,
+        "flight": "D1_F025",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F035",
+        "origin": "MXP",
+        "destination": "BCN",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F009",
+        "origin": "MXP",
+        "destination": "DUB",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F040",
+        "origin": "MXP",
+        "destination": "CPH",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F017",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C43": [
+      {
+        "day": 1,
+        "flight": "D1_F007",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F028",
+        "origin": "LHR",
+        "destination": "BCN",
+        "depart": "16:00:00",
+        "arrive": "18:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C44": [
+      {
+        "day": 1,
+        "flight": "D1_F043",
+        "origin": "DUB",
+        "destination": "CDG",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F041",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F010",
+        "origin": "DUB",
+        "destination": "AMS",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F020",
+        "origin": "DUB",
+        "destination": "FRA",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F026",
+        "origin": "DUB",
+        "destination": "CDG",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C45": [
+      {
+        "day": 1,
+        "flight": "D1_F032",
+        "origin": "LHR",
+        "destination": "DUB",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F001",
+        "origin": "LHR",
+        "destination": "DUB",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F046",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F044",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F043",
+        "origin": "LHR",
+        "destination": "CDG",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F016",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F005",
+        "origin": "LHR",
+        "destination": "MXP",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F038",
+        "origin": "LHR",
+        "destination": "FRA",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F011",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F027",
+        "origin": "LHR",
+        "destination": "CPH",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F022",
+        "origin": "LHR",
+        "destination": "MXP",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F020",
+        "origin": "LHR",
+        "destination": "MXP",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F021",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C46": [
+      {
+        "day": 1,
+        "flight": "D1_F034",
+        "origin": "DUB",
+        "destination": "AMS",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F037",
+        "origin": "BCN",
+        "destination": "DUB",
+        "depart": "08:00:00",
+        "arrive": "10:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F043",
+        "origin": "DUB",
+        "destination": "CDG",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F048",
+        "origin": "DUB",
+        "destination": "FRA",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C47": [
+      {
+        "day": 1,
+        "flight": "D1_F003",
+        "origin": "CPH",
+        "destination": "CDG",
+        "depart": "16:00:00",
+        "arrive": "18:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F045",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "18:00:00",
+        "arrive": "20:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F008",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F045",
+        "origin": "BCN",
+        "destination": "CPH",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "C48": [
+      {
+        "day": 4,
+        "flight": "D4_F036",
+        "origin": "FRA",
+        "destination": "AMS",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F027",
+        "origin": "FRA",
+        "destination": "LHR",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "captain"
+      }
+    ],
+    "C49": [
+      {
+        "day": 1,
+        "flight": "D1_F038",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F034",
+        "origin": "DUB",
+        "destination": "MXP",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F002",
+        "origin": "DUB",
+        "destination": "CDG",
+        "depart": "19:00:00",
+        "arrive": "21:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F033",
+        "origin": "CDG",
+        "destination": "BCN",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F018",
+        "origin": "DUB",
+        "destination": "CDG",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "captain"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F030",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "17:00:00",
+        "arrive": "18:00:00",
+        "duration": 1,
+        "role": "captain"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F002",
+        "origin": "DUB",
+        "destination": "BCN",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "captain"
+      }
+    ],
+    "FO0": [
+      {
+        "day": 3,
+        "flight": "D3_F011",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F021",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F045",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F021",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO1": [
+      {
+        "day": 1,
+        "flight": "D1_F047",
+        "origin": "CPH",
+        "destination": "DUB",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F049",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F027",
+        "origin": "FRA",
+        "destination": "LHR",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F002",
+        "origin": "LHR",
+        "destination": "MXP",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F047",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "08:00:00",
+        "arrive": "10:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F042",
+        "origin": "CPH",
+        "destination": "DUB",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F044",
+        "origin": "DUB",
+        "destination": "CPH",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F007",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F043",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "18:00:00",
+        "arrive": "19:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO2": [
+      {
+        "day": 1,
+        "flight": "D1_F011",
+        "origin": "DUB",
+        "destination": "AMS",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F000",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F010",
+        "origin": "DUB",
+        "destination": "AMS",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F018",
+        "origin": "AMS",
+        "destination": "DUB",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F035",
+        "origin": "AMS",
+        "destination": "LHR",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F009",
+        "origin": "DUB",
+        "destination": "MXP",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F025",
+        "origin": "DUB",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F012",
+        "origin": "DUB",
+        "destination": "LHR",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F018",
+        "origin": "DUB",
+        "destination": "CDG",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F023",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "16:00:00",
+        "arrive": "18:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F048",
+        "origin": "DUB",
+        "destination": "FRA",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F003",
+        "origin": "DUB",
+        "destination": "CPH",
+        "depart": "18:00:00",
+        "arrive": "20:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO3": [
+      {
+        "day": 1,
+        "flight": "D1_F017",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F002",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F026",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F001",
+        "origin": "CPH",
+        "destination": "MXP",
+        "depart": "11:00:00",
+        "arrive": "12:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F025",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F024",
+        "origin": "CPH",
+        "destination": "CDG",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F011",
+        "origin": "CPH",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F046",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "11:00:00",
+        "arrive": "12:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F018",
+        "origin": "CPH",
+        "destination": "CDG",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO4": [
+      {
+        "day": 2,
+        "flight": "D2_F028",
+        "origin": "BCN",
+        "destination": "AMS",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F041",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F046",
+        "origin": "CPH",
+        "destination": "DUB",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F004",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F049",
+        "origin": "BCN",
+        "destination": "MXP",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F045",
+        "origin": "BCN",
+        "destination": "CPH",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F024",
+        "origin": "BCN",
+        "destination": "CPH",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F033",
+        "origin": "CPH",
+        "destination": "DUB",
+        "depart": "08:00:00",
+        "arrive": "10:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F006",
+        "origin": "CPH",
+        "destination": "MXP",
+        "depart": "18:00:00",
+        "arrive": "19:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO5": [
+      {
+        "day": 2,
+        "flight": "D2_F003",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F042",
+        "origin": "MXP",
+        "destination": "BCN",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F005",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F015",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F004",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO6": [
+      {
+        "day": 1,
+        "flight": "D1_F015",
+        "origin": "CDG",
+        "destination": "FRA",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F027",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F007",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F017",
+        "origin": "CDG",
+        "destination": "BCN",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F021",
+        "origin": "BCN",
+        "destination": "CDG",
+        "depart": "16:00:00",
+        "arrive": "18:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO7": [
+      {
+        "day": 1,
+        "flight": "D1_F013",
+        "origin": "FRA",
+        "destination": "DUB",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F047",
+        "origin": "DUB",
+        "destination": "CPH",
+        "depart": "19:00:00",
+        "arrive": "21:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F035",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F036",
+        "origin": "FRA",
+        "destination": "AMS",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F035",
+        "origin": "FRA",
+        "destination": "CPH",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F025",
+        "origin": "FRA",
+        "destination": "BCN",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO8": [
+      {
+        "day": 3,
+        "flight": "D3_F028",
+        "origin": "FRA",
+        "destination": "LHR",
+        "depart": "17:00:00",
+        "arrive": "18:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F002",
+        "origin": "LHR",
+        "destination": "BCN",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F027",
+        "origin": "FRA",
+        "destination": "LHR",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO9": [
+      {
+        "day": 1,
+        "flight": "D1_F025",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F009",
+        "origin": "MXP",
+        "destination": "DUB",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F034",
+        "origin": "DUB",
+        "destination": "MXP",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F002",
+        "origin": "DUB",
+        "destination": "CDG",
+        "depart": "19:00:00",
+        "arrive": "21:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F033",
+        "origin": "CDG",
+        "destination": "BCN",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO10": [],
+    "FO11": [
+      {
+        "day": 4,
+        "flight": "D4_F031",
+        "origin": "FRA",
+        "destination": "AMS",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO12": [
+      {
+        "day": 2,
+        "flight": "D2_F048",
+        "origin": "FRA",
+        "destination": "DUB",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F016",
+        "origin": "DUB",
+        "destination": "CPH",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F022",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO13": [
+      {
+        "day": 1,
+        "flight": "D1_F035",
+        "origin": "MXP",
+        "destination": "BCN",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F031",
+        "origin": "MXP",
+        "destination": "DUB",
+        "depart": "17:00:00",
+        "arrive": "18:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F033",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F016",
+        "origin": "MXP",
+        "destination": "CPH",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO14": [
+      {
+        "day": 2,
+        "flight": "D2_F029",
+        "origin": "FRA",
+        "destination": "MXP",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F023",
+        "origin": "FRA",
+        "destination": "BCN",
+        "depart": "19:00:00",
+        "arrive": "21:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO15": [
+      {
+        "day": 1,
+        "flight": "D1_F004",
+        "origin": "AMS",
+        "destination": "FRA",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F010",
+        "origin": "AMS",
+        "destination": "LHR",
+        "depart": "13:00:00",
+        "arrive": "15:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F013",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F000",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F029",
+        "origin": "AMS",
+        "destination": "FRA",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F005",
+        "origin": "AMS",
+        "destination": "LHR",
+        "depart": "14:00:00",
+        "arrive": "15:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F032",
+        "origin": "LHR",
+        "destination": "CPH",
+        "depart": "18:00:00",
+        "arrive": "19:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO16": [
+      {
+        "day": 1,
+        "flight": "D1_F012",
+        "origin": "BCN",
+        "destination": "CPH",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F019",
+        "origin": "BCN",
+        "destination": "AMS",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO17": [
+      {
+        "day": 1,
+        "flight": "D1_F030",
+        "origin": "AMS",
+        "destination": "FRA",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F039",
+        "origin": "AMS",
+        "destination": "FRA",
+        "depart": "13:00:00",
+        "arrive": "15:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F049",
+        "origin": "AMS",
+        "destination": "CDG",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F042",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "13:00:00",
+        "arrive": "15:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F017",
+        "origin": "AMS",
+        "destination": "BCN",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F026",
+        "origin": "AMS",
+        "destination": "CDG",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO18": [
+      {
+        "day": 2,
+        "flight": "D2_F021",
+        "origin": "BCN",
+        "destination": "DUB",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F000",
+        "origin": "DUB",
+        "destination": "BCN",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F048",
+        "origin": "DUB",
+        "destination": "BCN",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F029",
+        "origin": "BCN",
+        "destination": "FRA",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F012",
+        "origin": "BCN",
+        "destination": "AMS",
+        "depart": "17:00:00",
+        "arrive": "18:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F019",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO19": [
+      {
+        "day": 1,
+        "flight": "D1_F041",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F042",
+        "origin": "LHR",
+        "destination": "DUB",
+        "depart": "18:00:00",
+        "arrive": "19:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO20": [
+      {
+        "day": 1,
+        "flight": "D1_F026",
+        "origin": "FRA",
+        "destination": "CPH",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F033",
+        "origin": "FRA",
+        "destination": "CDG",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F000",
+        "origin": "BCN",
+        "destination": "CPH",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F023",
+        "origin": "CDG",
+        "destination": "DUB",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F036",
+        "origin": "DUB",
+        "destination": "CPH",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F013",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F047",
+        "origin": "BCN",
+        "destination": "DUB",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F024",
+        "origin": "FRA",
+        "destination": "AMS",
+        "depart": "17:00:00",
+        "arrive": "18:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO21": [
+      {
+        "day": 2,
+        "flight": "D2_F022",
+        "origin": "MXP",
+        "destination": "DUB",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F037",
+        "origin": "DUB",
+        "destination": "FRA",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F026",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F019",
+        "origin": "MXP",
+        "destination": "LHR",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F046",
+        "origin": "MXP",
+        "destination": "BCN",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F001",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO22": [
+      {
+        "day": 2,
+        "flight": "D2_F037",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F030",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F000",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO23": [
+      {
+        "day": 1,
+        "flight": "D1_F040",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F040",
+        "origin": "AMS",
+        "destination": "FRA",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F041",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F049",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F010",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F036",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "18:00:00",
+        "arrive": "19:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO24": [
+      {
+        "day": 2,
+        "flight": "D2_F018",
+        "origin": "LHR",
+        "destination": "CPH",
+        "depart": "19:00:00",
+        "arrive": "21:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F032",
+        "origin": "BCN",
+        "destination": "CDG",
+        "depart": "08:00:00",
+        "arrive": "10:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F014",
+        "origin": "BCN",
+        "destination": "MXP",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F012",
+        "origin": "LHR",
+        "destination": "CDG",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F040",
+        "origin": "LHR",
+        "destination": "CPH",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO25": [
+      {
+        "day": 1,
+        "flight": "D1_F029",
+        "origin": "BCN",
+        "destination": "MXP",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F041",
+        "origin": "FRA",
+        "destination": "BCN",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F015",
+        "origin": "BCN",
+        "destination": "AMS",
+        "depart": "18:00:00",
+        "arrive": "19:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F013",
+        "origin": "BCN",
+        "destination": "LHR",
+        "depart": "13:00:00",
+        "arrive": "15:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO26": [
+      {
+        "day": 4,
+        "flight": "D4_F001",
+        "origin": "DUB",
+        "destination": "LHR",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO27": [
+      {
+        "day": 1,
+        "flight": "D1_F038",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F008",
+        "origin": "CDG",
+        "destination": "BCN",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F024",
+        "origin": "BCN",
+        "destination": "MXP",
+        "depart": "13:00:00",
+        "arrive": "15:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F006",
+        "origin": "LHR",
+        "destination": "CDG",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F030",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "14:00:00",
+        "arrive": "15:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F035",
+        "origin": "CDG",
+        "destination": "FRA",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F009",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F030",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "17:00:00",
+        "arrive": "18:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F041",
+        "origin": "CDG",
+        "destination": "DUB",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO28": [
+      {
+        "day": 1,
+        "flight": "D1_F023",
+        "origin": "FRA",
+        "destination": "CDG",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F022",
+        "origin": "CDG",
+        "destination": "FRA",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F011",
+        "origin": "FRA",
+        "destination": "CDG",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F045",
+        "origin": "FRA",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "11:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F028",
+        "origin": "FRA",
+        "destination": "AMS",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F048",
+        "origin": "FRA",
+        "destination": "DUB",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO29": [
+      {
+        "day": 1,
+        "flight": "D1_F014",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F042",
+        "origin": "CDG",
+        "destination": "AMS",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F039",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F003",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "19:00:00",
+        "arrive": "21:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO30": [
+      {
+        "day": 1,
+        "flight": "D1_F036",
+        "origin": "BCN",
+        "destination": "LHR",
+        "depart": "11:00:00",
+        "arrive": "12:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F019",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F017",
+        "origin": "CPH",
+        "destination": "CDG",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F038",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F026",
+        "origin": "DUB",
+        "destination": "CDG",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F037",
+        "origin": "BCN",
+        "destination": "DUB",
+        "depart": "08:00:00",
+        "arrive": "10:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F039",
+        "origin": "CPH",
+        "destination": "FRA",
+        "depart": "14:00:00",
+        "arrive": "16:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO31": [
+      {
+        "day": 1,
+        "flight": "D1_F046",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO32": [
+      {
+        "day": 1,
+        "flight": "D1_F031",
+        "origin": "BCN",
+        "destination": "MXP",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F048",
+        "origin": "BCN",
+        "destination": "DUB",
+        "depart": "08:00:00",
+        "arrive": "10:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F007",
+        "origin": "BCN",
+        "destination": "DUB",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F039",
+        "origin": "BCN",
+        "destination": "FRA",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F038",
+        "origin": "FRA",
+        "destination": "CDG",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO33": [
+      {
+        "day": 1,
+        "flight": "D1_F044",
+        "origin": "AMS",
+        "destination": "DUB",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F033",
+        "origin": "AMS",
+        "destination": "DUB",
+        "depart": "14:00:00",
+        "arrive": "15:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO34": [
+      {
+        "day": 1,
+        "flight": "D1_F016",
+        "origin": "AMS",
+        "destination": "LHR",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F045",
+        "origin": "AMS",
+        "destination": "CPH",
+        "depart": "18:00:00",
+        "arrive": "20:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F001",
+        "origin": "AMS",
+        "destination": "LHR",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F014",
+        "origin": "AMS",
+        "destination": "DUB",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F006",
+        "origin": "AMS",
+        "destination": "DUB",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO35": [
+      {
+        "day": 1,
+        "flight": "D1_F043",
+        "origin": "DUB",
+        "destination": "CDG",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F034",
+        "origin": "DUB",
+        "destination": "AMS",
+        "depart": "11:00:00",
+        "arrive": "13:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F020",
+        "origin": "DUB",
+        "destination": "FRA",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F020",
+        "origin": "DUB",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F037",
+        "origin": "DUB",
+        "destination": "CDG",
+        "depart": "11:00:00",
+        "arrive": "12:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F043",
+        "origin": "DUB",
+        "destination": "CDG",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO36": [
+      {
+        "day": 3,
+        "flight": "D3_F034",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "15:00:00",
+        "arrive": "16:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F044",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F008",
+        "origin": "MXP",
+        "destination": "FRA",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO37": [
+      {
+        "day": 1,
+        "flight": "D1_F020",
+        "origin": "AMS",
+        "destination": "BCN",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F008",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F023",
+        "origin": "AMS",
+        "destination": "MXP",
+        "depart": "19:00:00",
+        "arrive": "21:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F038",
+        "origin": "AMS",
+        "destination": "LHR",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO38": [
+      {
+        "day": 1,
+        "flight": "D1_F032",
+        "origin": "LHR",
+        "destination": "DUB",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F006",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F037",
+        "origin": "LHR",
+        "destination": "BCN",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F036",
+        "origin": "LHR",
+        "destination": "DUB",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F004",
+        "origin": "BCN",
+        "destination": "LHR",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F016",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "13:00:00",
+        "arrive": "14:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F043",
+        "origin": "LHR",
+        "destination": "DUB",
+        "depart": "11:00:00",
+        "arrive": "12:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F019",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F029",
+        "origin": "AMS",
+        "destination": "DUB",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F022",
+        "origin": "LHR",
+        "destination": "MXP",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F030",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F028",
+        "origin": "LHR",
+        "destination": "CDG",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO39": [
+      {
+        "day": 1,
+        "flight": "D1_F028",
+        "origin": "LHR",
+        "destination": "BCN",
+        "depart": "16:00:00",
+        "arrive": "18:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F014",
+        "origin": "LHR",
+        "destination": "FRA",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO40": [
+      {
+        "day": 2,
+        "flight": "D2_F043",
+        "origin": "LHR",
+        "destination": "CDG",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F014",
+        "origin": "CDG",
+        "destination": "FRA",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F027",
+        "origin": "LHR",
+        "destination": "CPH",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F020",
+        "origin": "LHR",
+        "destination": "MXP",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO41": [
+      {
+        "day": 1,
+        "flight": "D1_F021",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F005",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "06:00:00",
+        "arrive": "07:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F031",
+        "origin": "LHR",
+        "destination": "CDG",
+        "depart": "14:00:00",
+        "arrive": "15:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F015",
+        "origin": "LHR",
+        "destination": "FRA",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F040",
+        "origin": "LHR",
+        "destination": "BCN",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F009",
+        "origin": "LHR",
+        "destination": "BCN",
+        "depart": "17:00:00",
+        "arrive": "18:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO42": [
+      {
+        "day": 4,
+        "flight": "D4_F034",
+        "origin": "FRA",
+        "destination": "DUB",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F020",
+        "origin": "FRA",
+        "destination": "CDG",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F007",
+        "origin": "FRA",
+        "destination": "LHR",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F049",
+        "origin": "FRA",
+        "destination": "BCN",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO43": [
+      {
+        "day": 1,
+        "flight": "D1_F007",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 1,
+        "flight": "D1_F008",
+        "origin": "LHR",
+        "destination": "CPH",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F032",
+        "origin": "CDG",
+        "destination": "BCN",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F010",
+        "origin": "CDG",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F034",
+        "origin": "CDG",
+        "destination": "CPH",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F031",
+        "origin": "CDG",
+        "destination": "BCN",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO44": [
+      {
+        "day": 1,
+        "flight": "D1_F003",
+        "origin": "CPH",
+        "destination": "CDG",
+        "depart": "16:00:00",
+        "arrive": "18:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F008",
+        "origin": "CPH",
+        "destination": "CDG",
+        "depart": "10:00:00",
+        "arrive": "12:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO45": [
+      {
+        "day": 3,
+        "flight": "D3_F045",
+        "origin": "MXP",
+        "destination": "BCN",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F040",
+        "origin": "MXP",
+        "destination": "CPH",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F017",
+        "origin": "MXP",
+        "destination": "CDG",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F047",
+        "origin": "MXP",
+        "destination": "DUB",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO46": [
+      {
+        "day": 1,
+        "flight": "D1_F005",
+        "origin": "DUB",
+        "destination": "BCN",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F012",
+        "origin": "DUB",
+        "destination": "LHR",
+        "depart": "19:00:00",
+        "arrive": "20:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F044",
+        "origin": "DUB",
+        "destination": "LHR",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F004",
+        "origin": "DUB",
+        "destination": "FRA",
+        "depart": "18:00:00",
+        "arrive": "20:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ],
+    "FO47": [
+      {
+        "day": 1,
+        "flight": "D1_F001",
+        "origin": "LHR",
+        "destination": "DUB",
+        "depart": "10:00:00",
+        "arrive": "11:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F044",
+        "origin": "LHR",
+        "destination": "AMS",
+        "depart": "07:00:00",
+        "arrive": "08:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F005",
+        "origin": "LHR",
+        "destination": "MXP",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F038",
+        "origin": "LHR",
+        "destination": "FRA",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO48": [
+      {
+        "day": 1,
+        "flight": "D1_F024",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "08:00:00",
+        "arrive": "09:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 2,
+        "flight": "D2_F015",
+        "origin": "CPH",
+        "destination": "CDG",
+        "depart": "12:00:00",
+        "arrive": "14:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F022",
+        "origin": "LHR",
+        "destination": "FRA",
+        "depart": "07:00:00",
+        "arrive": "09:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F025",
+        "origin": "CPH",
+        "destination": "MXP",
+        "depart": "09:00:00",
+        "arrive": "10:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 3,
+        "flight": "D3_F027",
+        "origin": "CPH",
+        "destination": "DUB",
+        "depart": "15:00:00",
+        "arrive": "17:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F016",
+        "origin": "CPH",
+        "destination": "DUB",
+        "depart": "16:00:00",
+        "arrive": "17:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      },
+      {
+        "day": 4,
+        "flight": "D4_F003",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "17:00:00",
+        "arrive": "19:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F002",
+        "origin": "DUB",
+        "destination": "BCN",
+        "depart": "06:00:00",
+        "arrive": "08:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F011",
+        "origin": "CPH",
+        "destination": "BCN",
+        "depart": "08:00:00",
+        "arrive": "10:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      },
+      {
+        "day": 5,
+        "flight": "D5_F010",
+        "origin": "CPH",
+        "destination": "AMS",
+        "depart": "12:00:00",
+        "arrive": "13:00:00",
+        "duration": 1,
+        "role": "first_officer"
+      }
+    ],
+    "FO49": [
+      {
+        "day": 2,
+        "flight": "D2_F046",
+        "origin": "BCN",
+        "destination": "LHR",
+        "depart": "13:00:00",
+        "arrive": "15:00:00",
+        "duration": 2,
+        "role": "first_officer"
+      }
+    ]
+  },
+  "cost_summary": {
+    "total_cost": 547900,
+    "assignment_cost": 83500,
+    "crew_cost": 464400,
+    "diagnostics": {
+      "assignment": {
+        "unassigned_flights": 7,
+        "base_mismatches": 153,
+        "qualification_mismatches": 0,
+        "deadheading_count": 0,
+        "duplicate_roles": 0,
+        "crew_usage": {
+          "C26": 6,
+          "FO20": 8,
+          "C44": 5,
+          "FO35": 6,
+          "C34": 4,
+          "FO46": 4,
+          "C6": 12,
+          "FO28": 6,
+          "C32": 3,
+          "FO32": 5,
+          "C14": 6,
+          "FO29": 4,
+          "C20": 9,
+          "FO33": 2,
+          "C12": 9,
+          "FO1": 9,
+          "C40": 3,
+          "FO2": 12,
+          "FO6": 5,
+          "C10": 10,
+          "FO48": 10,
+          "C45": 13,
+          "FO38": 12,
+          "C33": 5,
+          "C31": 8,
+          "FO16": 2,
+          "C42": 5,
+          "FO9": 5,
+          "C2": 7,
+          "FO17": 6,
+          "FO47": 4,
+          "C21": 4,
+          "FO7": 6,
+          "C49": 7,
+          "FO27": 9,
+          "FO23": 6,
+          "FO19": 2,
+          "C16": 5,
+          "FO3": 9,
+          "FO30": 7,
+          "FO15": 7,
+          "FO25": 4,
+          "C46": 4,
+          "C30": 3,
+          "C43": 2,
+          "FO43": 6,
+          "FO13": 4,
+          "C7": 1,
+          "C0": 6,
+          "FO34": 5,
+          "C23": 2,
+          "FO37": 4,
+          "C1": 4,
+          "FO31": 1,
+          "C47": 4,
+          "FO44": 2,
+          "FO39": 2,
+          "C24": 9,
+          "C28": 10,
+          "FO41": 6,
+          "C15": 4,
+          "FO22": 3,
+          "C3": 10,
+          "FO5": 5,
+          "C22": 6,
+          "C5": 5,
+          "C18": 4,
+          "FO12": 3,
+          "FO40": 4,
+          "C11": 4,
+          "FO14": 2,
+          "FO18": 6,
+          "FO21": 6,
+          "C38": 6,
+          "C13": 2,
+          "C25": 3,
+          "FO4": 9,
+          "C29": 7,
+          "C17": 3,
+          "FO49": 1,
+          "C9": 3,
+          "C27": 7,
+          "FO24": 5,
+          "C37": 1,
+          "C8": 5,
+          "FO0": 4,
+          "C35": 6,
+          "FO36": 3,
+          "FO45": 4,
+          "FO8": 3,
+          "FO42": 4,
+          "C48": 2,
+          "C4": 3,
+          "FO11": 1,
+          "C19": 1,
+          "FO26": 1,
+          "C36": 1
+        }
+      },
+      "crew": {
+        "C0": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 1
+        },
+        "C1": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C2": {
+          "flights": 7,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C3": {
+          "flights": 10,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C4": {
+          "flights": 3,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C5": {
+          "flights": 5,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C6": {
+          "flights": 12,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 2
+        },
+        "C7": {
+          "flights": 1,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C8": {
+          "flights": 5,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C9": {
+          "flights": 3,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C10": {
+          "flights": 10,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C11": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C12": {
+          "flights": 9,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 1
+        },
+        "C13": {
+          "flights": 2,
+          "deadheads": 0,
+          "base_return": true,
+          "fatigue_days": 0
+        },
+        "C14": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C15": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C16": {
+          "flights": 5,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C17": {
+          "flights": 3,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C18": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C19": {
+          "flights": 1,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C20": {
+          "flights": 9,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C21": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C22": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 1
+        },
+        "C23": {
+          "flights": 2,
+          "deadheads": 0,
+          "base_return": true,
+          "fatigue_days": 0
+        },
+        "C24": {
+          "flights": 9,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C25": {
+          "flights": 3,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C26": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C27": {
+          "flights": 7,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 1
+        },
+        "C28": {
+          "flights": 10,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 1
+        },
+        "C29": {
+          "flights": 7,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C30": {
+          "flights": 3,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C31": {
+          "flights": 8,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C32": {
+          "flights": 3,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C33": {
+          "flights": 5,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C34": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C35": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 1
+        },
+        "C36": {
+          "flights": 1,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C37": {
+          "flights": 1,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C38": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C39": {
+          "flights": 0,
+          "deadheads": 0,
+          "base_return": true,
+          "fatigue_days": 0
+        },
+        "C40": {
+          "flights": 3,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C41": {
+          "flights": 0,
+          "deadheads": 0,
+          "base_return": true,
+          "fatigue_days": 0
+        },
+        "C42": {
+          "flights": 5,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C43": {
+          "flights": 2,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C44": {
+          "flights": 5,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C45": {
+          "flights": 13,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C46": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C47": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C48": {
+          "flights": 2,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "C49": {
+          "flights": 7,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO0": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO1": {
+          "flights": 9,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 1
+        },
+        "FO2": {
+          "flights": 12,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 2
+        },
+        "FO3": {
+          "flights": 9,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO4": {
+          "flights": 9,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO5": {
+          "flights": 5,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO6": {
+          "flights": 5,
+          "deadheads": 0,
+          "base_return": true,
+          "fatigue_days": 0
+        },
+        "FO7": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO8": {
+          "flights": 3,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO9": {
+          "flights": 5,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO10": {
+          "flights": 0,
+          "deadheads": 0,
+          "base_return": true,
+          "fatigue_days": 0
+        },
+        "FO11": {
+          "flights": 1,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO12": {
+          "flights": 3,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO13": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO14": {
+          "flights": 2,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO15": {
+          "flights": 7,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO16": {
+          "flights": 2,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO17": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO18": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 1
+        },
+        "FO19": {
+          "flights": 2,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO20": {
+          "flights": 8,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO21": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO22": {
+          "flights": 3,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO23": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO24": {
+          "flights": 5,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO25": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO26": {
+          "flights": 1,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO27": {
+          "flights": 9,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO28": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO29": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO30": {
+          "flights": 7,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO31": {
+          "flights": 1,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO32": {
+          "flights": 5,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO33": {
+          "flights": 2,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO34": {
+          "flights": 5,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO35": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO36": {
+          "flights": 3,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO37": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO38": {
+          "flights": 12,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO39": {
+          "flights": 2,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO40": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO41": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO42": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO43": {
+          "flights": 6,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO44": {
+          "flights": 2,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO45": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO46": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO47": {
+          "flights": 4,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO48": {
+          "flights": 10,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        },
+        "FO49": {
+          "flights": 1,
+          "deadheads": 0,
+          "base_return": false,
+          "fatigue_days": 0
+        }
+      }
+    }
+  }
+}

@@ -188,7 +188,9 @@ markupsafe==3.0.3
     #   jinja2
     #   nbconvert
 matplotlib==3.10.7
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   seaborn
 matplotlib-inline==0.2.1
     # via
     #   ipykernel
@@ -226,6 +228,7 @@ numpy==2.2.6
     #   numba
     #   pandas
     #   scipy
+    #   seaborn
 openai==2.3.0
     # via -r requirements.in
 overrides==7.7.0
@@ -241,7 +244,9 @@ packaging==25.0
     #   nbconvert
     #   pytest
 pandas==2.3.3
-    # via -r requirements.in
+    # via
+    #   -r requirements.in
+    #   seaborn
 pandocfilters==1.5.1
     # via nbconvert
 parso==0.8.5
@@ -328,6 +333,8 @@ rpds-py==0.28.0
     #   jsonschema
     #   referencing
 scipy==1.15.3
+    # via -r requirements.in
+seaborn==0.13.2
     # via -r requirements.in
 send2trash==1.8.3
     # via jupyter-server

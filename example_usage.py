@@ -170,7 +170,52 @@ def main():
     # Try custom base-matching repair operator (index 2)
     r_assignment2, r_crew_state2 = optimizer.repair(d_assignment2, d_crew_state2, operator_index=2)
     print("Repair completed using base-matching operator")
+    
+    # Demonstrate full LNS optimization
+    print("\n" + "="*50)
+    print("DEMONSTRATING FULL LNS OPTIMIZATION")
+    print("="*50)
+    
+    # Reset to initial solution
+    optimizer.assignment = assignment
+    optimizer.crew_state = crew_state
+    
+    # Calculate initial cost
+    initial_cost = optimizer._total_cost()
+    print(f"Initial solution cost: {initial_cost:.0f}")
+    
+    # Run LNS optimization
+    print("\nRunning LNS optimization with custom operators...")
+    result = optimizer.optimize_lns(
+        max_iterations=20,
+        destroy_size_ratio=0.15,  # Destroy 15% of flights each iteration
+        temperature=1000,
+        cooling_rate=0.95
+    )
+    
+    # Show results
+    improvement = initial_cost - result['cost']
+    print(f"\nOptimization Results:")
+    print(f"  Final cost: {result['cost']:.0f}")
+    print(f"  Improvement: {improvement:.0f} ({improvement/initial_cost*100:.1f}%)")
+    print(f"  Iterations: {result['stats']['iterations']}")
+    print(f"  Improvements found: {result['stats']['improvements']}")
+    print(f"  Solutions accepted: {result['stats']['accepts']}")
+    print(f"  Acceptance rate: {result['stats']['accepts']/result['stats']['iterations']:.1%}")
+    
+    # Show final diagnostics
+    final_assignment_cost, final_assignment_diag = optimizer.compute_assignment_cost()
+    final_crew_cost, final_crew_diag = optimizer.compute_crew_cost()
+    
+    print(f"\nFinal Solution Quality:")
+    print(f"  Assignment cost: {final_assignment_cost:.0f}")
+    print(f"  Crew cost: {final_crew_cost:.0f}")
+    print(f"  Unassigned flights: {final_assignment_diag['unassigned_flights']}")
+    print(f"  Base mismatches: {final_assignment_diag['base_mismatches']}")
+    print(f"  Qualification mismatches: {final_assignment_diag['qualification_mismatches']}")
 
 
 if __name__ == "__main__":
+    # Set random seed for reproducible results
+    np.random.seed(42)
     main()

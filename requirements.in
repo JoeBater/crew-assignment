@@ -10,6 +10,7 @@ numba
 # Progress & Diagnostics
 tqdm
 matplotlib
+seaborn
 rich
 
 # Modeling & Validation
