@@ -1,3 +1,7 @@
 __pycache__
 *.pyc
 crew_env
+data/*.csv
+data/*.xlsx
+data/*.json
+logs/
