@@ -2,7 +2,9 @@
 Example usage of the new modular crew optimizer system
 """
 
-from crew_optimizer import CrewOptimizer, DestroyOperator, RepairOperator
+from crew_optimizer import CrewOptimizer
+from destroy_operators import DestroyOperator
+from repair_operators import RepairOperator
 import numpy as np
 import copy
 from typing import Dict, List, Tuple

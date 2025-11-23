@@ -1,7 +1,6 @@
-__pycache__
+__pycache__/
 *.pyc
+.env
 crew_env
-data/*.csv
-data/*.xlsx
-data/*.json
+data/
 logs/
