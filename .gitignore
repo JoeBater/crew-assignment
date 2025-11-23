@@ -1,5 +1,6 @@
 __pycache__/
 *.pyc
+.env
 crew_env
 data/
 logs/
