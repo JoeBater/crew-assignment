@@ -13,6 +13,7 @@ from destroy_operators import (
 )
 from repair_operators import (
     RepairOperator, RandomRepairOperator, LocationAwareRepairOperator,
+    DeadheadingRepairOperator,
     BaseMatchingRepairOperator, QualificationFirstRepairOperator, GreedyCostRepairOperator
 )
 
@@ -136,12 +137,18 @@ class CrewOptimizer:
         # Operators
         self.destroy_operators = [
             RandomDestroyOperator(),
-            OverlapDestroyOperator()
+            OverlapDestroyOperator(),
+            FatigueBasedDestroyOperator(),
+            AircraftTypeDestroyOperator(),
         ]
         
         self.repair_operators = [
             RandomRepairOperator(),
-            LocationAwareRepairOperator()
+            LocationAwareRepairOperator(),
+            BaseMatchingRepairOperator(),
+            QualificationFirstRepairOperator(),
+            GreedyCostRepairOperator(),
+            DeadheadingRepairOperator(),
         ]
     
     def initial_assignment(self) -> Dict:
