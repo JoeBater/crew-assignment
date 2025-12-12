@@ -4,5 +4,4 @@ __pycache__/
 crew_env
 data/
 logs/
-.env
 
