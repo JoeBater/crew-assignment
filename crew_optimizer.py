@@ -113,7 +113,7 @@ class CrewOptimizer:
         operator = self.destroy_operators[operator_index]
         
         if self.verbose:
-            print(f"Destroy - using operator {operator_index} => {operator.__class__.__name__}")
+            print(f"Destroy - using operator {operator_index} => {operator.__class__.__name__} with num_to_destroy={num_to_destroy}")
         
         return operator.destroy(self.assignment, self.crew_state, num_to_destroy, self.flights)
     
@@ -260,22 +260,30 @@ class CrewOptimizer:
             'improvements': 0,
             'accepts': 0,
             'cost_history': [current_cost],
-            'best_cost_history': [best_cost]
+            'best_cost_history': [best_cost],
+            'operator_performance': []
         }
         
         current_temp = temperature
-        destroy_size = max(1, int(len(self.flights) * destroy_size_ratio))
         
         for iteration in range(max_iterations):
+            # Randomize destroy size each iteration (1 to 15% of flights)
+            destroy_size = max(1, int(len(self.flights) * np.random.uniform(0.01, 0.15)))
+            destroy_ratio = destroy_size / len(self.flights)
+            
             if self.verbose:
-                print(f"Iteration {iteration + 1}/{max_iterations}, Cost: {current_cost:.0f}, Best: {best_cost:.0f}, Temp: {current_temp:.1f}")
+                print(f"Iteration {iteration + 1}/{max_iterations}, Cost: {current_cost:.0f}, Best: {best_cost:.0f}, Temp: {current_temp:.1f}, Destroy: {destroy_size}")
             
             # Temporarily set current solution for destroy/repair operations
             self._temp_update_solution(current_assignment, current_crew_state)
             
+            # Select operators
+            destroy_op_idx = np.random.randint(0, len(self.destroy_operators))
+            repair_op_idx = np.random.randint(0, len(self.repair_operators))
+            
             # Destroy and repair
-            new_assignment, new_crew_state, destroyed_flights, affected_crew = self.destroy(destroy_size)
-            new_assignment, new_crew_state = self.repair(new_assignment, new_crew_state)
+            new_assignment, new_crew_state, destroyed_flights, affected_crew = self.destroy(destroy_size, destroy_op_idx)
+            new_assignment, new_crew_state = self.repair(new_assignment, new_crew_state, repair_op_idx)
             
             # Evaluate new solution
             self._temp_update_solution(new_assignment, new_crew_state)
@@ -285,6 +293,20 @@ class CrewOptimizer:
             cost_delta = new_cost - current_cost
             accept = False
             
+            # Record operator performance
+            stats['operator_performance'].append({
+                'iteration': iteration + 1,
+                'destroy_op': self.destroy_operators[destroy_op_idx].__class__.__name__,
+                'repair_op': self.repair_operators[repair_op_idx].__class__.__name__,
+                'destroy_size': destroy_size,
+                'destroy_ratio': destroy_ratio,
+                'cost_before': current_cost,
+                'cost_after': new_cost,
+                'cost_delta': cost_delta,
+                'accepted': accept,
+                'is_improvement': cost_delta <= 0
+            })
+
             if cost_delta <= 0:
                 # Better solution - always accept
                 accept = True
