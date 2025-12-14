@@ -11,109 +11,14 @@ from crew_state_manager import CrewStateManager
 
 # Import operators from separate modules
 from destroy_operators import (
-    DestroyOperator, RandomDestroyOperator, OverlapDestroyOperator,
-    FatigueBasedDestroyOperator, AircraftTypeDestroyOperator
+    DestroyOperator, RandomDestroyOperator, OverlapDestroyOperator, FatigueBasedDestroyOperator
 )
 from repair_operators import (
-    RepairOperator, RandomRepairOperator, LocationAwareRepairOperator,
-    QualificationFirstRepairOperator, GreedyCostRepairOperator
+    RepairOperator, RandomRepairOperator
 )
 
 
-class FlightUtils:
-    """Utility class for flight-related operations"""
-    
-    def __init__(self, flights_df: pd.DataFrame):
-        self.flights = flights_df
-    
-    def get_day(self, fid: str) -> int:
-        return int(self.flights[self.flights['id'] == fid]['day'].values[0])
-    
-    def get_origin(self, fid: str) -> str:
-        return self.flights[self.flights['id'] == fid]['origin'].values[0]
-    
-    def get_destination(self, fid: str) -> str:
-        return self.flights[self.flights['id'] == fid]['dest'].values[0]
-    
-    def get_departure(self, fid: str):
-        return self.flights[self.flights['id'] == fid]['dep'].values[0]
-    
-    def get_arrival(self, fid: str):
-        return self.flights[self.flights['id'] == fid]['arr'].values[0]
-    
-    def get_duration(self, fid: str) -> int:
-        return int(self.flights[self.flights['id'] == fid]['dur'].values[0])
-    
-    def get_aircraft_type(self, fid: str) -> str:
-        return self.flights[self.flights['id'] == fid]['type'].values[0]
 
-
-class CrewStateManager:
-    """Manages crew state tracking and location logic"""
-    
-    def __init__(self, crew_df: pd.DataFrame, flight_utils: FlightUtils):
-        self.crew = crew_df
-        self.flight_utils = flight_utils
-    
-    def initialize_crew_state(self, assignment: Dict) -> Dict:
-        """Initialize crew state from assignment"""
-        crew_state = {crew_id: [] for crew_id in self.crew['id']}
-        
-        for fid, roles in assignment.items():
-            flight_info = self._create_flight_info(fid)
-            
-            if roles['captain'] is not None:
-                flight_info_copy = flight_info.copy()
-                flight_info_copy['role'] = 'captain'
-                crew_state[roles['captain']].append(flight_info_copy)
-            
-            if roles['first_officer'] is not None:
-                flight_info_copy = flight_info.copy()
-                flight_info_copy['role'] = 'first_officer'
-                crew_state[roles['first_officer']].append(flight_info_copy)
-            
-            for dh in roles['dead_heading']:
-                flight_info_copy = flight_info.copy()
-                flight_info_copy['role'] = 'dead_heading'
-                crew_state[dh].append(flight_info_copy)
-        
-        # Sort crew flights chronologically
-        for crew_id in crew_state:
-            crew_state[crew_id].sort(key=lambda x: (x['day'], x['depart']))
-        
-        return crew_state
-    
-    def _create_flight_info(self, fid: str) -> Dict:
-        """Create flight info dictionary for a flight"""
-        return {
-            'day': self.flight_utils.get_day(fid),
-            'flight': fid,
-            'origin': self.flight_utils.get_origin(fid),
-            'destination': self.flight_utils.get_destination(fid),
-            'depart': self.flight_utils.get_departure(fid),
-            'arrive': self.flight_utils.get_arrival(fid),
-            'duration': self.flight_utils.get_duration(fid)
-        }
-    
-    def is_crew_available_at_location(self, crew_id: str, target_location: str, 
-                                    target_day: int, target_time, crew_state: Dict) -> bool:
-        """Check if crew member is available at target location before target time"""
-        crew_flights = crew_state.get(crew_id, [])
-        crew_base = self.crew[self.crew['id'] == crew_id].iloc[0]['base']
-        current_location = crew_base
-        
-        if crew_flights:
-            sorted_flights = sorted(crew_flights, key=lambda x: (x['day'], x['depart']))
-            
-            for flight in sorted_flights:
-                if flight['day'] < target_day:
-                    current_location = flight['destination']
-                elif flight['day'] == target_day and flight['depart'] < target_time:
-                    current_location = flight['destination']
-                elif flight['day'] == target_day and flight['depart'] >= target_time:
-                    break
-        
-        return current_location == target_location
 
 
 class CrewOptimizer:
@@ -135,14 +40,9 @@ class CrewOptimizer:
         self.flights['end_utc'] = pd.to_datetime(self.flights['end_utc']).dt.time
         self.flights['start date'] = pd.to_datetime(self.flights['start date']).dt.date
 
-        # Filter by base using a flexible column name (expect 'base' commonly)
-        base_candidates = ['base', 'home_base', 'duty_start_location']
-        base_col = next((c for c in base_candidates if c in self.flights.columns), None)
-        if base_col is not None:
-            self.flights = self.flights[self.flights[base_col] == self.base]
-        else:
-            if verbose:
-                print("Warning: no base-like column found in flights; skipping base filter")
+        # Filter by base
+        if 'Base' in self.flights.columns:
+            self.flights = self.flights[self.flights['Base'] == self.base]
 
         # Load crew and normalise column names
         self.crew = pd.read_csv(crew_file)
@@ -160,17 +60,11 @@ class CrewOptimizer:
         self.destroy_operators = [
             RandomDestroyOperator(),
             OverlapDestroyOperator(),
-            FatigueBasedDestroyOperator(),
-            AircraftTypeDestroyOperator(),
+            FatigueBasedDestroyOperator(fatigue_threshold=3),
         ]
 
         self.repair_operators = [
             RandomRepairOperator(),
-            LocationAwareRepairOperator(),
-            BaseMatchingRepairOperator(),
-            QualificationFirstRepairOperator(),
-            GreedyCostRepairOperator(),
-            DeadheadingRepairOperator(),
         ]
     
     def initial_assignment(self) -> Dict:
@@ -258,8 +152,6 @@ class CrewOptimizer:
 
         for fid, roles in self.assignment.items():
             flight = self.flights[self.flights['pairing_id'] == fid].iloc[0]
-            origin = flight['origin']
-            aircraft = flight['type']
 
             for role in ['captain', 'first_officer']:
                 crew_id = roles[role]
@@ -268,14 +160,7 @@ class CrewOptimizer:
                     total_cost += 1000
                     continue
 
-                crew_member = self.crew[self.crew['id'] == crew_id].iloc[0]
-
-                
-
-                # Qualification mismatch
-                if aircraft not in crew_member['qualified']:
-                    diagnostics["qualification_mismatches"] += 1
-                    total_cost += 1000
+                crew_member = self.crew[self.crew['crew_id'] == crew_id].iloc[0]
 
                 # Track usage
                 diagnostics["crew_usage"][crew_id] = diagnostics["crew_usage"].get(crew_id, 0) + 1
@@ -300,36 +185,30 @@ class CrewOptimizer:
         diagnostics = {}
 
         for cid, trace in self.crew_state.items():
-            trace = sorted(trace, key=lambda x: (x['day'], x['depart']))  # chronological
-            crew_member = self.crew[self.crew['id'] == cid].iloc[0]
+            trace = sorted(trace, key=lambda x: (x['day'], x['start_utc']))  # chronological
+            crew_member = self.crew[self.crew['crew_id'] == cid].iloc[0]
             
-            last_arrival = time(0, 0, 0)
+            last_arrival = None
+            last_location = None
             day_flights = {}
 
             for entry in trace:
                 day = entry['day']
                 role = entry['role']
-                origin = entry['origin']
-                destination = entry['destination']
-                depart = entry['depart']
-                arrive = entry['arrive']
+                depart = entry['start_utc']
+                arrive = entry['end_utc']
 
                 # Track flights per day
                 day_flights[day] = day_flights.get(day, 0) + 1
 
-                # Location mismatch
-                if origin != last_location:
-                    total_cost += 500  # repositioning penalty
-
                 # Overlap check (simplified)
-                if depart < last_arrival:
+                if last_arrival is not None and depart < last_arrival:
                     total_cost += 2000  # impossible schedule
 
                 # Deadheading cost
                 if role == "dead_heading":
                     total_cost += 100
 
-                last_location = destination
                 last_arrival = arrive
 
             # Fatigue penalty
@@ -348,7 +227,7 @@ class CrewOptimizer:
 
         return total_cost, diagnostics
     
-    def optimize_lns(self, max_iterations: int = 100, destroy_size_ratio: float = 0.1, 
+    def large_neighbourhood_search(self, max_iterations: int = 100, destroy_size_ratio: float = 0.1, 
                      temperature: float = 1000, cooling_rate: float = 0.95) -> Dict:
         """
         Large Neighborhood Search optimization algorithm

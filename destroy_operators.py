@@ -44,7 +44,7 @@ class RandomDestroyOperator(DestroyOperator):
         new_assignment = copy.deepcopy(assignment)
         new_crew_state = copy.deepcopy(crew_state)
         
-        flights_to_destroy = np.random.choice(flights_df['id'].tolist(), num_to_destroy, replace=False)
+        flights_to_destroy = np.random.choice(flights_df['pairing_id'].tolist(), num_to_destroy, replace=False)
         affected_crew = set()
         
         for ftd in flights_to_destroy:
@@ -89,7 +89,7 @@ class OverlapDestroyOperator(DestroyOperator):
                 continue
             
             remaining_flights = []
-            sorted_flights = sorted(crew_flights, key=lambda x: (x['day'], x['depart']))
+            sorted_flights = sorted(crew_flights, key=lambda x: (x['day'], x['start_utc']))
             
             for i, current_flight in enumerate(sorted_flights):
                 has_overlap = False
@@ -123,8 +123,8 @@ class OverlapDestroyOperator(DestroyOperator):
     def _flights_overlap(self, flight1: Dict, flight2: Dict) -> bool:
         """Check if two flights overlap in time"""
         return (flight1['day'] == flight2['day'] and 
-                flight1['depart'] < flight2['arrive'] and 
-                flight2['depart'] < flight1['arrive'])
+                flight1['start_utc'] < flight2['end_utc'] and 
+                flight2['start_utc'] < flight1['end_utc'])
 
 
 class FatigueBasedDestroyOperator(DestroyOperator):
@@ -207,64 +207,3 @@ class FatigueBasedDestroyOperator(DestroyOperator):
         
         return new_assignment, new_crew_state, flights_to_destroy, list(affected_crew)
 
-
-class AircraftTypeDestroyOperator(DestroyOperator):
-    """Destroys flights for specific aircraft types"""
-    
-    def __init__(self, target_aircraft: Optional[str] = None):
-        """
-        Initialize aircraft type destroy operator
-        
-        Args:
-            target_aircraft: Specific aircraft type to target, or None for random selection
-        """
-        self.target_aircraft = target_aircraft
-    
-    def destroy(self, assignment: Dict, crew_state: Dict, num_to_destroy: int, 
-                flights_df: pd.DataFrame, **kwargs) -> Tuple[Dict, Dict, List, List]:
-        
-        new_assignment = copy.deepcopy(assignment)
-        new_crew_state = copy.deepcopy(crew_state)
-        
-        # Select target aircraft type
-        if self.target_aircraft is None:
-            aircraft_types = flights_df['type'].unique()
-            target_aircraft = np.random.choice(aircraft_types)
-        else:
-            target_aircraft = self.target_aircraft
-        
-        # Find flights with target aircraft type
-        target_flights = flights_df[flights_df['type'] == target_aircraft]['id'].tolist()
-        
-        if len(target_flights) == 0:
-            # Fallback to random if no target aircraft flights
-            target_flights = flights_df['id'].tolist()
-        
-        # Select flights to destroy
-        num_to_destroy = min(num_to_destroy, len(target_flights))
-        flights_to_destroy = np.random.choice(target_flights, num_to_destroy, replace=False)
-        affected_crew = set()
-        
-        for ftd in flights_to_destroy:
-            # Track affected crew
-            if new_assignment[ftd]['captain'] is not None:
-                affected_crew.add(new_assignment[ftd]['captain'])
-            if new_assignment[ftd]['first_officer'] is not None:
-                affected_crew.add(new_assignment[ftd]['first_officer'])
-            for dh in new_assignment[ftd]['dead_heading']:
-                affected_crew.add(dh)
-            
-            # Remove from assignment
-            new_assignment[ftd]['captain'] = None
-            new_assignment[ftd]['first_officer'] = None
-            new_assignment[ftd]['dead_heading'] = []
-            
-            # Remove from crew state
-            for crew_id in affected_crew:
-                if crew_id in new_crew_state:
-                    new_crew_state[crew_id] = [
-                        f for f in new_crew_state[crew_id] 
-                        if f['flight'] not in flights_to_destroy
-                    ]
-        
-        return new_assignment, new_crew_state, flights_to_destroy.tolist(), list(affected_crew)

@@ -9,7 +9,7 @@ class FlightUtils:
         self.flights = flights_df
     
     def get_day(self, fid: str) -> datetime.date:
-        return int(self.flights[self.flights['pairing_id'] == fid]['start date'].values[0])
+        return self.flights[self.flights['pairing_id'] == fid]['start date'].values[0]
     
     def get_route_makeup(self, fid: str) -> str:
         return self.flights[self.flights['pairing_id'] == fid]['duty_route_makeup'].values[0]

@@ -8,24 +8,9 @@ class CrewStateManager:
     """Manages crew state tracking and location logic"""
     
     def __init__(self, crew_df: pd.DataFrame, flight_utils: FlightUtils):
-        # Keep original DataFrame but determine canonical column names for crew id and role
         self.crew = crew_df
-        # Detect crew id column (allow 'id' or 'crew_id')
-        for col in ['id', 'crew_id', 'crewId']:
-            if col in self.crew.columns:
-                self.crew_id_col = col
-                break
-        else:
-            raise KeyError(f"Crew DataFrame missing crew identifier column. Available columns: {self.crew.columns.tolist()}")
-
-        # Detect role column
-        for col in ['role', 'crew_role', 'crewRole']:
-            if col in self.crew.columns:
-                self.role_col = col
-                break
-        else:
-            # Role isn't strictly required here but warn by raising to make debugging explicit
-            raise KeyError(f"Crew DataFrame missing role column. Available columns: {self.crew.columns.tolist()}")
+        self.crew_id_col = 'crew_id'
+        self.role_col = 'crew_role'
         self.flight_utils = flight_utils
     
     def initialize_crew_state(self, assignment: Dict) -> Dict:
