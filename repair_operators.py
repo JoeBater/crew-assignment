@@ -392,3 +392,194 @@ class GreedyCostRepairOperator(RepairOperator):
                     new_crew_state[best_first_officer].sort(key=lambda f: (f['day'], f['depart']))
         
         return new_assignment, new_crew_state
+
+
+class DeadheadingRepairOperator(RepairOperator):
+    """
+    Deadheading repair operator that fills empty crew slots by deadheading 
+    appropriately qualified crew members to the flight's origin on a preceding flight.
+    
+    This operator:
+    1. Identifies empty crew slots (unassigned captain or first officer)
+    2. Finds qualified crew members currently at other locations
+    3. Schedules a deadhead flight (or uses existing flight) to move crew to the origin
+    4. Makes the crew available for the target flight
+    
+    Deadheading is a cost-effective way to position crew without revenue-generating flights.
+    """
+    
+    def repair(self, assignment: Dict, crew_state: Dict, crew_df: pd.DataFrame, 
+               flight_utils: 'FlightUtils', crew_manager: 'CrewStateManager') -> Tuple[Dict, Dict]:
+        
+        new_assignment = copy.deepcopy(assignment)
+        new_crew_state = copy.deepcopy(crew_state)
+        
+        # Process each unassigned flight
+        for fid, roles in new_assignment.items():
+            if roles['captain'] is not None and roles['first_officer'] is not None:
+                continue  # Skip fully assigned flights
+            
+            aircraft = flight_utils.get_aircraft_type(fid)
+            origin = flight_utils.get_origin(fid)
+            flight_day = flight_utils.get_day(fid)
+            depart = flight_utils.get_departure(fid)
+            
+            # Repair captain
+            if roles['captain'] is None:
+                repaired_captain = self._find_crew_with_deadhead(
+                    'captain', aircraft, origin, flight_day, depart, 
+                    new_assignment, new_crew_state, crew_df, flight_utils, crew_manager
+                )
+                
+                if repaired_captain is not None:
+                    new_assignment[fid]['captain'] = repaired_captain
+                    
+                    # Add to crew state
+                    flight_info = crew_manager._create_flight_info(fid)
+                    flight_info['role'] = 'captain'
+                    new_crew_state[repaired_captain].append(flight_info)
+                    new_crew_state[repaired_captain].sort(key=lambda f: (f['day'], f['depart']))
+            
+            # Repair first officer
+            if roles['first_officer'] is None:
+                repaired_first_officer = self._find_crew_with_deadhead(
+                    'first_officer', aircraft, origin, flight_day, depart, 
+                    new_assignment, new_crew_state, crew_df, flight_utils, crew_manager
+                )
+                
+                if repaired_first_officer is not None:
+                    new_assignment[fid]['first_officer'] = repaired_first_officer
+                    
+                    # Add to crew state
+                    flight_info = crew_manager._create_flight_info(fid)
+                    flight_info['role'] = 'first_officer'
+                    new_crew_state[repaired_first_officer].append(flight_info)
+                    new_crew_state[repaired_first_officer].sort(key=lambda f: (f['day'], f['depart']))
+        
+        return new_assignment, new_crew_state
+    
+    def _find_crew_with_deadhead(self, role: str, aircraft: str, target_origin: str, 
+                                  target_day: int, target_depart_time: Tuple[int, int],
+                                  assignment: Dict, crew_state: Dict, crew_df: pd.DataFrame,
+                                  flight_utils: 'FlightUtils', crew_manager: 'CrewStateManager') -> str:
+        """
+        Find a qualified crew member and potentially deadhead them to the target location.
+        
+        Args:
+            role: 'captain' or 'first_officer'
+            aircraft: Aircraft type for the target flight
+            target_origin: Origin airport of the target flight
+            target_day: Day of the target flight
+            target_depart_time: Departure time of the target flight (tuple of hours/minutes)
+            assignment: Current flight assignments
+            crew_state: Current crew scheduling state
+            crew_df: Crew information dataframe
+            flight_utils: Flight utility functions
+            crew_manager: Crew state management utility
+            
+        Returns:
+            Crew ID if found (either already at location or deadheadable), None otherwise
+        """
+        
+        # Find all qualified crew for this role and aircraft
+        qualified_crew = crew_df[
+            (crew_df['role'] == role) &
+            (crew_df['qualified'].apply(lambda q: aircraft in q))
+        ]['id'].values
+        
+        # First, try to find crew already at the target location
+        for crew_id in qualified_crew:
+            if crew_manager.is_crew_available_at_location(
+                crew_id, target_origin, target_day, target_depart_time, crew_state):
+                return crew_id
+        
+        # If no crew at location, try to find someone who can be deadheaded
+        for crew_id in qualified_crew:
+            crew_flights = crew_state.get(crew_id, [])
+            
+            if len(crew_flights) == 0:
+                # Crew has no flights yet; can be based at origin on target day
+                current_location = crew_df[crew_df['id'] == crew_id].iloc[0]['base']
+                if current_location == target_origin:
+                    return crew_id
+                else:
+                    # Could deadhead from base, but no incoming flight needed
+                    return crew_id
+            
+            # Get crew's last flight before the target flight
+            last_flight = crew_flights[-1]
+            last_flight_day = last_flight['day']
+            last_arrival_time = last_flight['arrive']
+            last_arrival_location = last_flight['destination']
+            
+            # Check if crew could deadhead to target origin
+            if last_flight_day == target_day and last_arrival_location != target_origin:
+                # Look for a connecting deadhead flight on the same day
+                deadhead_flight = self._find_deadhead_flight(
+                    last_arrival_location, target_origin, target_day, 
+                    last_arrival_time, target_depart_time, assignment, flight_utils
+                )
+                
+                if deadhead_flight is not None:
+                    # Can deadhead via this flight
+                    return crew_id
+            elif last_flight_day < target_day and last_arrival_location == target_origin:
+                # Crew is already at target location from a prior flight
+                return crew_id
+            elif last_flight_day < target_day:
+                # Crew is at a different location but has time to deadhead back to origin
+                # (This could be extended to find deadhead paths, but for simplicity,
+                # we only support same-day connections)
+                pass
+        
+        return None
+    
+    def _find_deadhead_flight(self, origin: str, destination: str, day: int, 
+                              earliest_departure: Tuple[int, int], 
+                              latest_arrival: Tuple[int, int],
+                              assignment: Dict, 
+                              flight_utils: 'FlightUtils') -> str:
+        """
+        Find a deadhead (positioning) flight between origin and destination on a given day.
+        
+        A valid deadhead flight must:
+        - Depart from origin after the crew's last flight arrives
+        - Arrive at destination before the target flight departs
+        - Have empty crew slots available (i.e., unassigned captain or first officer)
+        
+        Args:
+            origin: Starting airport for deadhead
+            destination: Ending airport for deadhead
+            day: Day of deadhead
+            earliest_departure: Earliest the deadhead can depart (tuple of hours/minutes)
+            latest_arrival: Latest the deadhead can arrive (tuple of hours/minutes)
+            assignment: Current flight assignments
+            flight_utils: Flight utility functions
+            
+        Returns:
+            Flight ID of a suitable deadhead flight, or None if not found
+        """
+        
+        for fid, roles in assignment.items():
+            # Only consider flights on the correct day and route
+            if flight_utils.get_day(fid) != day:
+                continue
+            if flight_utils.get_origin(fid) != origin or flight_utils.get_destination(fid) != destination:
+                continue
+            
+            flight_depart = flight_utils.get_departure(fid)
+            flight_arrival = flight_utils.get_arrival(fid)
+            
+            # Check timing constraints
+            if flight_depart < earliest_departure:
+                continue
+            if flight_arrival > latest_arrival:
+                continue
+            
+            # Check if flight has empty slots (crew can deadhead as passenger/non-operating crew)
+            # In this simplified model, we allow deadheading on any flight with any capacity
+            # In a more complex model, you might track aircraft capacity or specific deadhead slots
+            
+            return fid
+        
+        return None

@@ -20,6 +20,102 @@ from repair_operators import (
 )
 
 
+class FlightUtils:
+    """Utility class for flight-related operations"""
+    
+    def __init__(self, flights_df: pd.DataFrame):
+        self.flights = flights_df
+    
+    def get_day(self, fid: str) -> int:
+        return int(self.flights[self.flights['id'] == fid]['day'].values[0])
+    
+    def get_origin(self, fid: str) -> str:
+        return self.flights[self.flights['id'] == fid]['origin'].values[0]
+    
+    def get_destination(self, fid: str) -> str:
+        return self.flights[self.flights['id'] == fid]['dest'].values[0]
+    
+    def get_departure(self, fid: str):
+        return self.flights[self.flights['id'] == fid]['dep'].values[0]
+    
+    def get_arrival(self, fid: str):
+        return self.flights[self.flights['id'] == fid]['arr'].values[0]
+    
+    def get_duration(self, fid: str) -> int:
+        return int(self.flights[self.flights['id'] == fid]['dur'].values[0])
+    
+    def get_aircraft_type(self, fid: str) -> str:
+        return self.flights[self.flights['id'] == fid]['type'].values[0]
+
+
+class CrewStateManager:
+    """Manages crew state tracking and location logic"""
+    
+    def __init__(self, crew_df: pd.DataFrame, flight_utils: FlightUtils):
+        self.crew = crew_df
+        self.flight_utils = flight_utils
+    
+    def initialize_crew_state(self, assignment: Dict) -> Dict:
+        """Initialize crew state from assignment"""
+        crew_state = {crew_id: [] for crew_id in self.crew['id']}
+        
+        for fid, roles in assignment.items():
+            flight_info = self._create_flight_info(fid)
+            
+            if roles['captain'] is not None:
+                flight_info_copy = flight_info.copy()
+                flight_info_copy['role'] = 'captain'
+                crew_state[roles['captain']].append(flight_info_copy)
+            
+            if roles['first_officer'] is not None:
+                flight_info_copy = flight_info.copy()
+                flight_info_copy['role'] = 'first_officer'
+                crew_state[roles['first_officer']].append(flight_info_copy)
+            
+            for dh in roles['dead_heading']:
+                flight_info_copy = flight_info.copy()
+                flight_info_copy['role'] = 'dead_heading'
+                crew_state[dh].append(flight_info_copy)
+        
+        # Sort crew flights chronologically
+        for crew_id in crew_state:
+            crew_state[crew_id].sort(key=lambda x: (x['day'], x['depart']))
+        
+        return crew_state
+    
+    def _create_flight_info(self, fid: str) -> Dict:
+        """Create flight info dictionary for a flight"""
+        return {
+            'day': self.flight_utils.get_day(fid),
+            'flight': fid,
+            'origin': self.flight_utils.get_origin(fid),
+            'destination': self.flight_utils.get_destination(fid),
+            'depart': self.flight_utils.get_departure(fid),
+            'arrive': self.flight_utils.get_arrival(fid),
+            'duration': self.flight_utils.get_duration(fid)
+        }
+    
+    def is_crew_available_at_location(self, crew_id: str, target_location: str, 
+                                    target_day: int, target_time, crew_state: Dict) -> bool:
+        """Check if crew member is available at target location before target time"""
+        crew_flights = crew_state.get(crew_id, [])
+        crew_base = self.crew[self.crew['id'] == crew_id].iloc[0]['base']
+        current_location = crew_base
+        
+        if crew_flights:
+            sorted_flights = sorted(crew_flights, key=lambda x: (x['day'], x['depart']))
+            
+            for flight in sorted_flights:
+                if flight['day'] < target_day:
+                    current_location = flight['destination']
+                elif flight['day'] == target_day and flight['depart'] < target_time:
+                    current_location = flight['destination']
+                elif flight['day'] == target_day and flight['depart'] >= target_time:
+                    break
+        
+        return current_location == target_location
+
+
 class CrewOptimizer:
     """Main optimizer class that orchestrates destroy and repair operations"""
     
@@ -63,12 +159,18 @@ class CrewOptimizer:
         # Operators
         self.destroy_operators = [
             RandomDestroyOperator(),
-            OverlapDestroyOperator()
+            OverlapDestroyOperator(),
+            FatigueBasedDestroyOperator(),
+            AircraftTypeDestroyOperator(),
         ]
 
         self.repair_operators = [
             RandomRepairOperator(),
-            LocationAwareRepairOperator()
+            LocationAwareRepairOperator(),
+            BaseMatchingRepairOperator(),
+            QualificationFirstRepairOperator(),
+            GreedyCostRepairOperator(),
+            DeadheadingRepairOperator(),
         ]
     
     def initial_assignment(self) -> Dict:
